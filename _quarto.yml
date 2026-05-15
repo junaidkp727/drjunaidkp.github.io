@@ -3,13 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "Junaid_Profile"
+  title: "Dr Junaid KP"
   navbar:
+    Background: primary
+    search: true
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+        
 format:
   html:
     theme:

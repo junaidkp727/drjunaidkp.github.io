@@ -1,11 +1,182 @@
 ---
-title: "Junaid_Profile"
+title: "Dr Junaid KP"
+about:
+  template: trestles
+  image: images/Picture1.png
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/junaidkp727"
+
+    - icon: journal-text
+      text: ResearchGate
+      href: "https://www.researchgate.net/profile/K-P-Junaid/research"
+
+    - icon: github
+      text: GitHub
+      href: "https://github.com/junaidkp727"
+
+    - icon: person-badge
+      text: ORCiD
+      href: "https://orcid.org/0000-0001-6751-2236"
+
+    - icon: journal-richtext
+      text: Scopus
+      href: "https://www.scopus.com/authid/detail.uri?authorId=57701767800"
 ---
 
-This is a Quarto website.
+## Profile Summary
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Research Scientist at the HTA Resource Hub, IIPHG, with prior experience as Senior Research Fellow (Health Economics) at PGIMER, Chandigarh. My research focuses on Health Economics, HTA, and Mental Health Economics, combining positive health economics (trend analysis, hypothesis generation, prediction) with normative approaches, including economic evaluation and decision-analytic modelling. I have strong expertise in quantitative research methods, systematic reviews and meta-analysis, econometric and structural equation modelling, spatial analysis, and machine-learning-based prediction, with advanced proficiency in R, Stata, Python, SPSS, and GIS tools. I have published in indexed journals, contributed to funded grants (DHR, SERB, SERB-MATRICS), and delivered teaching and workshops in health economics and research methods.
 
-```{r}
-1 + 1
-```
+## Areas of Interest
+
+- Health Technology Assessment
+
+- Health Economics and Economic Evaluation
+
+- Decision Tree and Markov Modelling
+
+- Cost-effectiveness Analysis
+
+- Budget Impact Analysis
+
+- Evidence Synthesis
+
+- R for Health Economic Modelling
+
+## Work Experience
+
+**Indian Institute of Public Health Gandhinagar (IIPHG), *Gujarat, India \| October 2025 - Present***
+
+-  Preparing HTA protocols and presenting to the HTAIn Technical Advisory Committee (DHR), incorporating expert recommendations.
+
+- Contributing to institutional capacity-building in health economics research.
+
+- Coordinating with HTAIn, Department of Health Research (MoHFW), Government of India.
+
+- Developing and applying advanced econometric and decision-analytic models, including Decision Tree and Markov models.
+
+- Conducting systematic reviews and meta-analyses, including critical appraisal and evidence synthesis for HTA.
+
+- Reviewing the HTA outcome reports of resource centres under the IIPHG HTA resource hub and do the Quality Appraisal.
+
+- Delivering HTA sensitization workshops for central and state government stakeholders.
+
+- Coordinating and facilitating national and international HTA training programs.
+
+- Teaching health economics and related subjects to Master’s-level students.
+
+## Education
+
+Ph.D., *Public Health (Health Economics),* Postgraduate Institute of Medical Education and Research, *Chandigarh, India \| July 2025*
+
+M.Phil., *Psychiatric Social Work,* National Institute of Mental Health and Neuroscience, *Bengaluru, India \| July 2020*
+
+MSW., *Medical and Psychiatric Social Work,* Pondicherry University, *Puducherry, India \| July 2018*
+
+## Peer Reviewed Publications
+
+### Publications in 2026
+
+- Aswathy P V, **Junaid K P**, Ghosh A, Basu D, Sharma SK, Pillai RR. *Efficacy of Family-based Interventions in Addressing Substance Use Disorders: A Systematic Review on Randomized Controlled Trials*. Indian J Psychol Med. 2026 Apr 10:02537176261435440. doi: 10.1177/02537176261435440.
+
+- **Junaid, K. P.,** Sen, A., Kumar, P., Pillai, R. R., Antony, S., & Pv, A. (2026). *Prevalence of postpartum depression at subnational level in India: A systematic review and meta-analysis*. Women & Health, 1–18. https://doi.org/10.1080/03630242.2026.2626757.
+
+### Publications in 2025
+
+- **Junaid, K.,** Kiran, T., Gupta, M. et al. *Trends and patterns of global health risk factors (2015–2019): a composite index approach across 100 countries stratified by human development index groups*. J Health Popul Nutr 44, 357 (2025).
+
+- **Junaid, K.P.,** Kiran, T., Gupta, M. et al. *How much missing data is too much to impute for longitudinal health indicators? A preliminary guideline for the choice of the extent of missing proportion to impute with multiple imputations by chained equations*. BMC Population Health Metrics 23, 2 (2025).
+
+- Aswathy PV, Verma A, Balasankar JM, Roy A, **Junaid K.** *Physiological, Psychological, and Functional Health Determinants of Depressive Symptoms Among the Elderly in India: Evaluation of Classification Performance of XGBoost Models*. Indian Journal of Psychological Medicine. 2025
+
+### Publications in 2024
+
+- Gandhi, A.P., Kiran, T., Thakur, J.S., Sharma, D., **Junaid, K.P.,** Gupta, R., Prajapati, A., Amaljith, A.B. *Validation of the 5C questionnaire to assess the hesitancy towards adult vaccination among the Hindi speaking population of Northern India.* Discover Social Science and Health 4, 2 (2024)
+
+### Publications in 2022
+
+- Sharma D, Kiran T, **Junaid KP**, Rajagopal V, Sharma S. *Comprehensive assessment of Age-Specific Mortality Rate and its incremental changes using a composite measure: A sub-national analysis of rural Indian women*. Frontiers in Medicine. (2022);9(November).
+
+- Kiran T, **Junaid KP**, Rajagopal V, Gupta M, Sharma D. *Measurement, and mapping of maternal health service coverage through a novel composite index: a sub-national level analysis in India*. BMC Pregnancy Childbirth. (2022);22(1):1–17.
+
+- Kiran T, **Junaid KP**, Sharma D, Jain L, Vij J, Satapathy P, et al. *Sociodemographic Determinants of Willingness and Extent to Pay for COVID-19 Vaccine in India*. Frontiers in Public Health. (2022);10(June).
+
+- **Junaid K. P**, Bano H, Kiran T. *Covid-19 and trade flow of protective garments in India: An empirical analysis. In: Vinodan C, Kurian AL, editors. Managing Pandemics: India’s Responses to COVID-19.* First. Kottayam: Scholars’ Press; (2022). p. 290–309. ).
+
+### Publications in 2021
+
+- Monika, K., **Junaid, K. P**., Aggarwal, A. K., Arora, P., Sharma, D., & Kiran, T. (2021). *A Comparative Analysis of Exports and Imports of ‘Protective Garments and the like’ in India*. *International Journal of Health Systems and Implementation Research*, *5*(2), 39-48.
+
+- Bahl, A., Sharma, D., Aggarwal, A. K., **Junaid, K. P**., & Kiran, T. (2021*). Temporal Analysis of Under 5 Mortality Rate at Sub-National Level in India. International Journal of Health Systems and Implementation Research*, *5*(2), 49-57.
+
+## Skills
+
+### Research Skills
+
+- Health Technology Assessment
+
+- Economic Decision Modelling
+
+- Systematic Review and Meta-analysis
+
+- Structural Equation modelling
+
+- Prediction models using machine learning techniques
+
+- Spatial data analysis
+
+- Construction of index
+
+- Academic publishing
+
+- Grant proposal writing
+
+### Statistical Softwares
+
+- R Studio
+
+- STATA
+
+- Microsoft Excel
+
+- IBM SPSS
+
+- QGIS
+
+- GeoDa
+
+- Smart PLS
+
+- SPSS AMOS
+
+- Python.
+
+### Programming Skills
+
+- R Programming (Advanced)
+
+- Python (Working knowledge)
+
+- Visual Studio Code and Android Studio (Beginner level).
+
+## Professional Membership
+
+ISPOR: Society for health economics and outcomes research \| October 2024 - Present
+
+## Awards and Achievement
+
+- University Grants Commission (UGC)- National Eligibility Test (NET), Qualification for Assistant Professor and Junior Research Fellowship
+
+- Topper Badge in Online certification course by IIT Kanpur in ‘Economics of Health and Health care’
+
+- Elite Badge in Online certification course by IIT Roorkee in ‘Econometric modelling’
+
+- Elite badge in Online certification course by IIT Madras in ‘Python for Data Science’
+
+- Won first prize in ‘Pre and Post-test’ competition in pre-conference CME workshop on ‘Health Econometrics’, IAPSMCON 2021
+
+- Won third prize in poster presentation in World Conference on Criminology.
+
+- Won First prize under the category of ‘Medical Speciality’ for poster ‘*How much missing data is too much to impute for longitudinal health indicators? A preliminary guideline for the choice of the extent of missing proportion to impute with multiple imputations by chained equations’* in the 12^th^ Annual Research Day, PGIMER, Chandigarh
