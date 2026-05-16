@@ -5,11 +5,14 @@ project:
 website:
   title: "Dr Junaid KP"
   navbar:
-    Background: primary
+    background: "#001f3f"
+    foreground: "white"
     search: true
     left:
       - href: index.qmd
         text: Home
+      - text: "Courses"
+        href: courses.qmd
         
 format:
   html:

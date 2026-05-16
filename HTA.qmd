@@ -1,0 +1,31 @@
+---
+title: "Health Technology Assessment"
+description: "A course on HTA concepts, evidence synthesis, economic evaluation, and policy translation."
+image: images/hta.png
+categories: [HTA, Economic Evaluation, Policy]
+---
+
+## Course Overview
+
+This course provides an overview of Health Technology Assessment and its role in evidence-informed healthcare decision-making.
+
+## Topics Covered
+
+- Introduction to HTA
+- Clinical effectiveness
+- Systematic review and meta-analysis
+- Cost-effectiveness analysis
+- Budget impact analysis
+- HTA reporting and policy translation
+
+## Target Audience
+
+Researchers, policymakers, healthcare professionals, and postgraduate students.
+
+## Duration
+
+5 days
+
+## Mode
+
+Online / Offline / Hybrid

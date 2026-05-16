@@ -1,10 +1,52 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Dr Junaid KP",
+    "objectID": "HTA.html",
+    "href": "HTA.html",
+    "title": "Health Technology Assessment",
     "section": "",
-    "text": "Research Scientist at the HTA Resource Hub, IIPHG, with prior experience as Senior Research Fellow (Health Economics) at PGIMER, Chandigarh. My research focuses on Health Economics, HTA, and Mental Health Economics, combining positive health economics (trend analysis, hypothesis generation, prediction) with normative approaches, including economic evaluation and decision-analytic modelling. I have strong expertise in quantitative research methods, systematic reviews and meta-analysis, econometric and structural equation modelling, spatial analysis, and machine-learning-based prediction, with advanced proficiency in R, Stata, Python, SPSS, and GIS tools. I have published in indexed journals, contributed to funded grants (DHR, SERB, SERB-MATRICS), and delivered teaching and workshops in health economics and research methods."
+    "text": "This course provides an overview of Health Technology Assessment and its role in evidence-informed healthcare decision-making."
+  },
+  {
+    "objectID": "HTA.html#course-overview",
+    "href": "HTA.html#course-overview",
+    "title": "Health Technology Assessment",
+    "section": "",
+    "text": "This course provides an overview of Health Technology Assessment and its role in evidence-informed healthcare decision-making."
+  },
+  {
+    "objectID": "HTA.html#topics-covered",
+    "href": "HTA.html#topics-covered",
+    "title": "Health Technology Assessment",
+    "section": "Topics Covered",
+    "text": "Topics Covered\n\nIntroduction to HTA\nClinical effectiveness\nSystematic review and meta-analysis\nCost-effectiveness analysis\nBudget impact analysis\nHTA reporting and policy translation"
+  },
+  {
+    "objectID": "HTA.html#target-audience",
+    "href": "HTA.html#target-audience",
+    "title": "Health Technology Assessment",
+    "section": "Target Audience",
+    "text": "Target Audience\nResearchers, policymakers, healthcare professionals, and postgraduate students."
+  },
+  {
+    "objectID": "HTA.html#duration",
+    "href": "HTA.html#duration",
+    "title": "Health Technology Assessment",
+    "section": "Duration",
+    "text": "Duration\n5 days"
+  },
+  {
+    "objectID": "HTA.html#mode",
+    "href": "HTA.html#mode",
+    "title": "Health Technology Assessment",
+    "section": "Mode",
+    "text": "Mode\nOnline / Offline / Hybrid"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "Explore my courses and training programmes designed for students, researchers, and professionals in public health, health economics, and data analysis.\n\n\n\n\n\nHealth Economics\nAn introductory course covering health economic concepts, costing, economic evaluation, and decision-making in healthcare.\n\nHealth Economics Public Health\n\nView course details →\n\n\n\n\n\nR Workshop for Public Health\nA practical hands-on workshop on R programming, data cleaning, visualization, and statistical analysis for public health research.\n\nR Programming Data Analysis Public Health\n\nView course details →\n\n\n\n\n\nHealth Technology Assessment\nA course on HTA concepts, evidence synthesis, economic evaluation, and policy translation for evidence-informed decision-making.\n\nHTA Economic Evaluation Policy\n\nView course details →"
   },
   {
     "objectID": "about.html",
@@ -14,11 +56,53 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
+    "objectID": "health_economics.html",
+    "href": "health_economics.html",
+    "title": "Health Economics",
+    "section": "",
+    "text": "This course introduces students to the principles of health economics and its application in healthcare decision-making."
+  },
+  {
+    "objectID": "health_economics.html#course-overview",
+    "href": "health_economics.html#course-overview",
+    "title": "Health Economics",
+    "section": "",
+    "text": "This course introduces students to the principles of health economics and its application in healthcare decision-making."
+  },
+  {
+    "objectID": "health_economics.html#topics-covered",
+    "href": "health_economics.html#topics-covered",
+    "title": "Health Economics",
+    "section": "Topics Covered",
+    "text": "Topics Covered\n\nIntroduction to health economics\nDemand and supply in healthcare\nCosting in healthcare\nCost-effectiveness analysis\nCost-utility analysis\nBudget impact analysis"
+  },
+  {
+    "objectID": "health_economics.html#target-audience",
+    "href": "health_economics.html#target-audience",
+    "title": "Health Economics",
+    "section": "Target Audience",
+    "text": "Target Audience\nThis course is suitable for public health students, researchers, healthcare professionals, and policymakers."
+  },
+  {
+    "objectID": "health_economics.html#duration",
+    "href": "health_economics.html#duration",
+    "title": "Health Economics",
+    "section": "Duration",
+    "text": "Duration\n6 weeks"
+  },
+  {
+    "objectID": "health_economics.html#mode",
+    "href": "health_economics.html#mode",
+    "title": "Health Economics",
+    "section": "Mode",
+    "text": "Mode\nOnline / Offline"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Dr Junaid KP",
     "section": "",
-    "text": "Scientist-C at the HTA Resource Hub, IIPHG, with prior experience as Senior Research Fellow (Health Economics) at PGIMER, Chandigarh. My research focuses on Health Economics, HTA, and Mental Health Economics, combining positive health economics (trend analysis, hypothesis generation, prediction) with normative approaches, including economic evaluation and decision-analytic modelling. I have strong expertise in quantitative research methods, systematic reviews and meta-analysis, econometric and structural equation modelling, spatial analysis, and machine-learning-based prediction, with advanced proficiency in R, Stata, Python, SPSS, and GIS tools. I have published in indexed journals, contributed to funded grants (DHR, SERB, SERB-MATRICS), and delivered teaching and workshops in health economics and research methods."
+    "text": "Research Scientist at the HTA Resource Hub, IIPHG, with prior experience as Senior Research Fellow (Health Economics) at PGIMER, Chandigarh. My research focuses on Health Economics, HTA, and Mental Health Economics, combining positive health economics (trend analysis, hypothesis generation, prediction) with normative approaches, including economic evaluation and decision-analytic modelling. I have strong expertise in quantitative research methods, systematic reviews and meta-analysis, econometric and structural equation modelling, spatial analysis, and machine-learning-based prediction, with advanced proficiency in R, Stata, Python, SPSS, and GIS tools. I have published in indexed journals, contributed to funded grants (DHR, SERB, SERB-MATRICS), and delivered teaching and workshops in health economics and research methods."
   },
   {
     "objectID": "index.html#profile-summary",
@@ -28,18 +112,18 @@
     "text": "Research Scientist at the HTA Resource Hub, IIPHG, with prior experience as Senior Research Fellow (Health Economics) at PGIMER, Chandigarh. My research focuses on Health Economics, HTA, and Mental Health Economics, combining positive health economics (trend analysis, hypothesis generation, prediction) with normative approaches, including economic evaluation and decision-analytic modelling. I have strong expertise in quantitative research methods, systematic reviews and meta-analysis, econometric and structural equation modelling, spatial analysis, and machine-learning-based prediction, with advanced proficiency in R, Stata, Python, SPSS, and GIS tools. I have published in indexed journals, contributed to funded grants (DHR, SERB, SERB-MATRICS), and delivered teaching and workshops in health economics and research methods."
   },
   {
-    "objectID": "index.html#work-experience",
-    "href": "index.html#work-experience",
-    "title": "Dr Junaid KP",
-    "section": "Work Experience",
-    "text": "Work Experience\nIndian Institute of Public Health Gandhinagar (IIPHG), Gujarat, India | October 2025 - Present\n\nPreparing HTA protocols and presenting to the HTAIn Technical Advisory Committee (DHR), incorporating expert recommendations.\nContributing to institutional capacity-building in health economics research.\nCoordinating with HTAIn, Department of Health Research (MoHFW), Government of India.\nDeveloping and applying advanced econometric and decision-analytic models, including Decision Tree and Markov models.\nConducting systematic reviews and meta-analyses, including critical appraisal and evidence synthesis for HTA.\nReviewing the HTA outcome reports of resource centres under the IIPHG HTA resource hub and do the Quality Appraisal.\nDelivering HTA sensitization workshops for central and state government stakeholders.\nCoordinating and facilitating national and international HTA training programs.\nTeaching health economics and related subjects to Master’s-level students."
-  },
-  {
     "objectID": "index.html#areas-of-interest",
     "href": "index.html#areas-of-interest",
     "title": "Dr Junaid KP",
     "section": "Areas of Interest",
     "text": "Areas of Interest\n\nHealth Technology Assessment\nHealth Economics and Economic Evaluation\nDecision Tree and Markov Modelling\nCost-effectiveness Analysis\nBudget Impact Analysis\nEvidence Synthesis\nR for Health Economic Modelling"
+  },
+  {
+    "objectID": "index.html#work-experience",
+    "href": "index.html#work-experience",
+    "title": "Dr Junaid KP",
+    "section": "Work Experience",
+    "text": "Work Experience\nIndian Institute of Public Health Gandhinagar (IIPHG), Gujarat, India | October 2025 - Present\n\nPreparing HTA protocols and presenting to the HTAIn Technical Advisory Committee (DHR), incorporating expert recommendations.\nContributing to institutional capacity-building in health economics research.\nCoordinating with HTAIn, Department of Health Research (MoHFW), Government of India.\nDeveloping and applying advanced econometric and decision-analytic models, including Decision Tree and Markov models.\nConducting systematic reviews and meta-analyses, including critical appraisal and evidence synthesis for HTA.\nReviewing the HTA outcome reports of resource centres under the IIPHG HTA resource hub and do the Quality Appraisal.\nDelivering HTA sensitization workshops for central and state government stakeholders.\nCoordinating and facilitating national and international HTA training programs.\nTeaching health economics and related subjects to Master’s-level students."
   },
   {
     "objectID": "index.html#education",

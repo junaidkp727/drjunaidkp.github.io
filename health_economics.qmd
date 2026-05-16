@@ -1,0 +1,31 @@
+---
+title: "Health Economics"
+description: "An introductory course covering health economic concepts, costing, economic evaluation, and decision-making in healthcare."
+image: images/health_economics.png
+categories: [Health Economics, Public Health]
+---
+
+## Course Overview
+
+This course introduces students to the principles of health economics and its application in healthcare decision-making.
+
+## Topics Covered
+
+- Introduction to health economics
+- Demand and supply in healthcare
+- Costing in healthcare
+- Cost-effectiveness analysis
+- Cost-utility analysis
+- Budget impact analysis
+
+## Target Audience
+
+This course is suitable for public health students, researchers, healthcare professionals, and policymakers.
+
+## Duration
+
+6 weeks
+
+## Mode
+
+Online / Offline
