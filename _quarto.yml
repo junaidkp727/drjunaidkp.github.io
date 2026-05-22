@@ -14,6 +14,26 @@ website:
       - text: "Courses"
         href: courses.qmd
         
+  sidebar:
+    - title: "R for HTA"
+      style: "docked"
+      background: light
+      contents:
+        - text: "Introduction"
+          href: courses/r_for_hta/index.qmd
+        - text: "Decision Tree Modelling"
+          href: courses/r_for_hta/session1.qmd
+        - text: "Session 2"
+          href: courses/r_for_hta/session2.qmd
+        - text: "Session 3"
+          href: courses/r_for_hta/session3.qmd
+        - text: "Session 4"
+          href: courses/r_for_hta/session4.qmd
+        - text: "Session 5"
+          href: courses/r_for_hta/session5.qmd
+        - text: "Conclusion"
+          href: courses/r_for_hta/conclusion.qmd
+        
 format:
   html:
     theme:

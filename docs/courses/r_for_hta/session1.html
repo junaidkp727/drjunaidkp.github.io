@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>session1 – Dr Junaid KP</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a94b35d1acae41cd2dfea9fa3b94b059.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link href="../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<script src="../../site_libs/viz-1.8.2/viz.js"></script>
+
+<link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
+
+<script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
+
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Dr Junaid KP</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../courses.html"> 
+<span class="menu-text">Courses</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../courses/r_for_hta/session1.html">Decision Tree Modelling</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../courses/r_for_hta/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../courses/r_for_hta/session1.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Decision Tree Modelling</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../courses/r_for_hta/session2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Session 2</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../courses/r_for_hta/session3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Session 3</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../courses/r_for_hta/session4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Session 4</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../courses/r_for_hta/session5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Session 5</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../courses/r_for_hta/conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conclusion</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#decision-tree-modelling-in-r" id="toc-decision-tree-modelling-in-r" class="nav-link active" data-scroll-target="#decision-tree-modelling-in-r">Decision Tree Modelling in R</a>
+  <ul class="collapse">
+  <li><a href="#the-clinical-question" id="toc-the-clinical-question" class="nav-link" data-scroll-target="#the-clinical-question">The Clinical Question</a></li>
+  <li><a href="#the-decision-problem" id="toc-the-decision-problem" class="nav-link" data-scroll-target="#the-decision-problem">The Decision Problem</a></li>
+  <li><a href="#model-parameters" id="toc-model-parameters" class="nav-link" data-scroll-target="#model-parameters">Model Parameters</a></li>
+  <li><a href="#building-the-decision-tree" id="toc-building-the-decision-tree" class="nav-link" data-scroll-target="#building-the-decision-tree">Building the Decision Tree</a>
+  <ul class="collapse">
+  <li><a href="#strategy-1-universal-screening" id="toc-strategy-1-universal-screening" class="nav-link" data-scroll-target="#strategy-1-universal-screening">Strategy 1: Universal Screening</a></li>
+  <li><a href="#strategy-2-risk-based-screening" id="toc-strategy-2-risk-based-screening" class="nav-link" data-scroll-target="#strategy-2-risk-based-screening">Strategy 2: Risk-Based Screening</a></li>
+  <li><a href="#strategy-3-no-formal-screening" id="toc-strategy-3-no-formal-screening" class="nav-link" data-scroll-target="#strategy-3-no-formal-screening">Strategy 3: No Formal Screening</a></li>
+  </ul></li>
+  <li><a href="#comparing-the-three-strategies" id="toc-comparing-the-three-strategies" class="nav-link" data-scroll-target="#comparing-the-three-strategies">Comparing the Three Strategies</a></li>
+  <li><a href="#icer-and-net-monetary-benefit" id="toc-icer-and-net-monetary-benefit" class="nav-link" data-scroll-target="#icer-and-net-monetary-benefit">ICER and Net Monetary Benefit</a>
+  <ul class="collapse">
+  <li><a href="#net-monetary-benefit" id="toc-net-monetary-benefit" class="nav-link" data-scroll-target="#net-monetary-benefit">Net Monetary Benefit</a></li>
+  </ul></li>
+  <li><a href="#visualising-the-results" id="toc-visualising-the-results" class="nav-link" data-scroll-target="#visualising-the-results">Visualising the Results</a></li>
+  <li><a href="#what-you-just-did" id="toc-what-you-just-did" class="nav-link" data-scroll-target="#what-you-just-did">What You Just Did</a></li>
+  <li><a href="#key-references" id="toc-key-references" class="nav-link" data-scroll-target="#key-references">Key References</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="dtm.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<section id="decision-tree-modelling-in-r" class="level1">
+<h1>Decision Tree Modelling in R</h1>
+<section id="the-clinical-question" class="level2">
+<h2 class="anchored" data-anchor-id="the-clinical-question">The Clinical Question</h2>
+<p>Gestational Diabetes Mellitus (GDM) affects approximately 10–14% of pregnancies in India — substantially higher than Western countries. Undetected GDM increases risks of macrosomia, birth injuries, neonatal hypoglycaemia, pre-eclampsia, and future type 2 diabetes in the mother.</p>
+<p>The question for HTA is: <strong>Should India implement universal screening for GDM using a fasting 75g OGTT, or is risk-based screening (screening only high-risk women) more cost-effective?</strong></p>
+<p>This is a classic <strong>diagnostic decision tree</strong> problem — the kind of analysis you might currently do in Excel or TreeAge. We will build it step by step in R.</p>
+</section>
+<section id="the-decision-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-decision-problem">The Decision Problem</h2>
+<p>We compare three strategies:</p>
+<ol type="1">
+<li><strong>Universal screening:</strong> All pregnant women receive a fasting 75g OGTT at 24–28 weeks (IADPSG criteria)</li>
+<li><strong>Risk-based screening:</strong> Only women with risk factors (age &gt;25, BMI &gt;25, family history of diabetes, previous GDM) receive OGTT</li>
+<li><strong>No formal screening:</strong> GDM detected only when symptomatic (status quo in many rural settings)</li>
+</ol>
+</section>
+<section id="model-parameters" class="level2">
+<h2 class="anchored" data-anchor-id="model-parameters">Model Parameters</h2>
+<p>All parameters are sourced from Indian studies where available. Let us define them in R:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ============================================================</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># MODEL PARAMETERS — Gestational Diabetes Screening in India</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># ============================================================</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Prevalence ---</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Source: Systematic review, Behboudi-Gandevani et al. 2019;</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">#         National meta-analysis, Pujitha et al. 2024 (BMC Public Health)</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Indian GDM prevalence ranges 10-14.3%; we use 12% as base case</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>prev_gdm <span class="ot">&lt;-</span> <span class="fl">0.12</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Population ---</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># We model a cohort of 10,000 pregnant women</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>n_cohort <span class="ot">&lt;-</span> <span class="dv">10000</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Risk-based screening coverage ---</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Proportion of women classified as "high risk" and offered screening</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Source: FOGSI guidelines; approximately 55-65% of Indian pregnant women</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co">#         have at least one risk factor</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>prop_high_risk <span class="ot">&lt;-</span> <span class="fl">0.60</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co"># GDM prevalence among high-risk vs low-risk women</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Source: Sreelakshmi et al. 2015 (IJRCOG)</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>prev_gdm_high_risk <span class="ot">&lt;-</span> <span class="fl">0.18</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>prev_gdm_low_risk  <span class="ot">&lt;-</span> <span class="fl">0.03</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Test Accuracy: Fasting 75g OGTT (IADPSG criteria) ---</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Source: Defined as the reference standard; near-perfect when properly</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="co">#         conducted. We use realistic performance accounting for</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="co">#         pre-analytical errors in field conditions.</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Source: Seshiah et al. 2008; Mohan et al. 2014</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>sens_ogtt <span class="ot">&lt;-</span> <span class="fl">0.90</span>   <span class="co"># Sensitivity</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>spec_ogtt <span class="ot">&lt;-</span> <span class="fl">0.85</span>   <span class="co"># Specificity</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Screening Costs (₹) ---</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Source: Estimated from public hospital rates, NHM guidelines</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>cost_ogtt <span class="ot">&lt;-</span> <span class="dv">250</span>            <span class="co"># Cost of fasting 75g OGTT per woman</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>cost_risk_assessment <span class="ot">&lt;-</span> <span class="dv">50</span>  <span class="co"># Cost of risk factor assessment per woman</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Treatment Cost if GDM Detected (₹) ---</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Includes dietary counselling, glucose monitoring, insulin if needed</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="co"># Source: Estimated from Indian tertiary hospital data</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>cost_gdm_treatment <span class="ot">&lt;-</span> <span class="dv">8000</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Outcome Probabilities ---</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="co"># Probability of adverse outcome (composite: macrosomia, birth injury,</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="co"># neonatal ICU admission, pre-eclampsia) if GDM is:</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="co"># Source: HAPO study (international); Indian data from Balaji et al. 2011</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>p_adverse_gdm_treated   <span class="ot">&lt;-</span> <span class="fl">0.10</span>  <span class="co"># GDM detected and treated</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>p_adverse_gdm_untreated <span class="ot">&lt;-</span> <span class="fl">0.35</span>  <span class="co"># GDM present but undetected</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>p_adverse_no_gdm        <span class="ot">&lt;-</span> <span class="fl">0.05</span>  <span class="co"># No GDM (background risk)</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Costs of Adverse Outcomes (₹) ---</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="co"># Source: Estimated from Indian NICU costs, C-section rates</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>cost_adverse <span class="ot">&lt;-</span> <span class="dv">45000</span>   <span class="co"># Average cost of managing adverse outcome</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>cost_no_adverse <span class="ot">&lt;-</span> <span class="dv">5000</span> <span class="co"># Average cost of normal delivery</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Utility Weights (QALYs) ---</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="co"># Short-term utility over pregnancy and postpartum period</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="co"># Source: Moss et al. 2007 (international); adapted for Indian context</span></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>utility_adverse   <span class="ot">&lt;-</span> <span class="fl">0.65</span>  <span class="co"># QALY weight if adverse outcome</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>utility_no_adverse <span class="ot">&lt;-</span> <span class="fl">0.90</span> <span class="co"># QALY weight if no adverse outcome</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>utility_gdm_treated <span class="ot">&lt;-</span> <span class="fl">0.82</span> <span class="co"># QALY weight for managed GDM (reduced anxiety, monitoring burden)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>A Note on Data Sources
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Where Indian-specific utility data was not available, we have adapted values from international studies with appropriate acknowledgement. In your own HTA work, you would ideally conduct a local utility study or use regionally validated EQ-5D values. The parameter values here are illustrative and should be updated with the best available evidence for a formal HTA submission.</p>
+</div>
+</div>
+</section>
+<section id="building-the-decision-tree" class="level2">
+<h2 class="anchored" data-anchor-id="building-the-decision-tree">Building the Decision Tree</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DiagrammeR)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">grViz</span>(<span class="st">"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="st">digraph gdm_tree {</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="st">  graph [rankdir=LR, bgcolor='transparent', fontname='Helvetica', nodesep=0.5]</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="st">  node [fontname='Helvetica', fontsize=10]</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="st">  D [label='Screening</span><span class="sc">\n</span><span class="st">Strategy', shape=box, style='filled', fillcolor='#4e79a7', fontcolor='white', width=1.2]</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="st">  </span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="st">  # Strategy nodes</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="st">  S1 [label='Universal</span><span class="sc">\n</span><span class="st"> Screening</span><span class="sc">\n</span><span class="st">(All women get OGTT)', shape=box, style='filled,rounded', fillcolor='#59a14f', fontcolor='white']</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="st">  S2 [label='Risk-Based</span><span class="sc">\n</span><span class="st"> Screening</span><span class="sc">\n</span><span class="st">(High-risk get OGTT)', shape=box, style='filled,rounded', fillcolor='#f28e2b', fontcolor='white']</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="st">  S3 [label='No Formal</span><span class="sc">\n</span><span class="st"> Screening</span><span class="sc">\n</span><span class="st">(Clinical detection only)', shape=box, style='filled,rounded', fillcolor='#e15759', fontcolor='white']</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="st">  # Chance nodes for Universal</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="st">  C1 [label='GDM+</span><span class="sc">\n</span><span class="st">(prev=12%)', shape=circle, style=filled, fillcolor='#d4e6f1', width=0.8, fontsize=9]</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="st">  C2 [label='GDM-</span><span class="sc">\n</span><span class="st">(88%)', shape=circle, style=filled, fillcolor='#d5f5e3', width=0.8, fontsize=9]</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="st">  </span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="st">  # Test results</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="st">  TP [label='Test +</span><span class="sc">\n</span><span class="st">(Sens=90%)</span><span class="sc">\n</span><span class="st">Treat', shape=box, style='filled,rounded', fillcolor='#aed6f1', fontsize=9]</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="st">  FN [label='Test -</span><span class="sc">\n</span><span class="st">(10%)</span><span class="sc">\n</span><span class="st"> Missed', shape=box, style='filled,rounded', fillcolor='#f5b7b1', fontsize=9]</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="st">  FP [label='Test +</span><span class="sc">\n</span><span class="st">(1-Spec=15%)</span><span class="sc">\n</span><span class="st"> Unnec. treat', shape=box, style='filled,rounded', fillcolor='#fdebd0', fontsize=9]</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="st">  TN [label='Test -</span><span class="sc">\n</span><span class="st">(Spec=85%)</span><span class="sc">\n</span><span class="st"> Correctly cleared', shape=box, style='filled,rounded', fillcolor='#d5f5e3', fontsize=9]</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="st">  </span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="st">  D -&gt; S1</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="st">  D -&gt; S2</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="st">  D -&gt; S3</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="st">  S1 -&gt; C1</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="st">  S1 -&gt; C2</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="st">  </span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="st">  C1 -&gt; TP</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="st">  C1 -&gt; FN</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="st">  C2 -&gt; FP</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="st">  C2 -&gt; TN}"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div id="fig-gdm-decision-tree" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-gdm-decision-tree-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="grViz html-widget html-fill-item" id="htmlwidget-960253a5b7874c830616" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-960253a5b7874c830616">{"x":{"diagram":"\ndigraph gdm_tree {\n  graph [rankdir=LR, bgcolor=\"transparent\", fontname=\"Helvetica\", nodesep=0.5]\n  node [fontname=\"Helvetica\", fontsize=10]\n  D [label=\"Screening\nStrategy\", shape=box, style=\"filled\", fillcolor=\"#4e79a7\", fontcolor=\"white\", width=1.2]\n  \n  # Strategy nodes\n  S1 [label=\"Universal\n Screening\n(All women get OGTT)\", shape=box, style=\"filled,rounded\", fillcolor=\"#59a14f\", fontcolor=\"white\"]\n  S2 [label=\"Risk-Based\n Screening\n(High-risk get OGTT)\", shape=box, style=\"filled,rounded\", fillcolor=\"#f28e2b\", fontcolor=\"white\"]\n  S3 [label=\"No Formal\n Screening\n(Clinical detection only)\", shape=box, style=\"filled,rounded\", fillcolor=\"#e15759\", fontcolor=\"white\"]\n\n  # Chance nodes for Universal\n  C1 [label=\"GDM+\n(prev=12%)\", shape=circle, style=filled, fillcolor=\"#d4e6f1\", width=0.8, fontsize=9]\n  C2 [label=\"GDM-\n(88%)\", shape=circle, style=filled, fillcolor=\"#d5f5e3\", width=0.8, fontsize=9]\n  \n  # Test results\n  TP [label=\"Test +\n(Sens=90%)\nTreat\", shape=box, style=\"filled,rounded\", fillcolor=\"#aed6f1\", fontsize=9]\n  FN [label=\"Test -\n(10%)\n Missed\", shape=box, style=\"filled,rounded\", fillcolor=\"#f5b7b1\", fontsize=9]\n  FP [label=\"Test +\n(1-Spec=15%)\n Unnec. treat\", shape=box, style=\"filled,rounded\", fillcolor=\"#fdebd0\", fontsize=9]\n  TN [label=\"Test -\n(Spec=85%)\n Correctly cleared\", shape=box, style=\"filled,rounded\", fillcolor=\"#d5f5e3\", fontsize=9]\n  \n  D -> S1\n  D -> S2\n  D -> S3\n\n  S1 -> C1\n  S1 -> C2\n  \n  C1 -> TP\n  C1 -> FN\n  C2 -> FP\n  C2 -> TN}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-gdm-decision-tree-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Decision tree structure for GDM screening strategies
+</figcaption>
+</figure>
+</div>
+</div>
+<section id="strategy-1-universal-screening" class="level3">
+<h3 class="anchored" data-anchor-id="strategy-1-universal-screening">Strategy 1: Universal Screening</h3>
+<p>Every woman gets an OGTT. Those who test positive receive treatment.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Universal Screening Strategy ---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Total number screened</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>n_screened_universal <span class="ot">&lt;-</span> n_cohort</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co"># True disease status</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>n_gdm_true <span class="ot">&lt;-</span> n_cohort <span class="sc">*</span> prev_gdm        <span class="co"># Women who truly have GDM</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>n_no_gdm   <span class="ot">&lt;-</span> n_cohort <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> prev_gdm)  <span class="co"># Women without GDM</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Test results</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>true_positive  <span class="ot">&lt;-</span> n_gdm_true <span class="sc">*</span> sens_ogtt             <span class="co"># GDM detected correctly</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>false_negative <span class="ot">&lt;-</span> n_gdm_true <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> sens_ogtt)       <span class="co"># GDM missed</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>false_positive <span class="ot">&lt;-</span> n_no_gdm <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> spec_ogtt)         <span class="co"># Wrongly flagged</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>true_negative  <span class="ot">&lt;-</span> n_no_gdm <span class="sc">*</span> spec_ogtt               <span class="co"># Correctly cleared</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"=== Universal Screening Results ===</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>=== Universal Screening Results ===</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Total screened:"</span>, n_screened_universal, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Total screened: 10000 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"True positives (GDM detected):"</span>, true_positive, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>True positives (GDM detected): 1080 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"False negatives (GDM missed):"</span>, false_negative, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>False negatives (GDM missed): 120 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"False positives (unnecessary treatment):"</span>, false_positive, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>False positives (unnecessary treatment): 1320 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"True negatives (correctly cleared):"</span>, true_negative, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>True negatives (correctly cleared): 7480 </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>test_results <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">Category =</span> <span class="fu">c</span>(<span class="st">"True Positive</span><span class="sc">\n</span><span class="st">(GDM detected)"</span>, <span class="st">"False Negative</span><span class="sc">\n</span><span class="st">(GDM missed)"</span>,</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>                <span class="st">"False Positive</span><span class="sc">\n</span><span class="st">(Wrongly flagged)"</span>, <span class="st">"True Negative</span><span class="sc">\n</span><span class="st">(Correctly cleared)"</span>),</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">Count =</span> <span class="fu">c</span>(true_positive, false_negative, false_positive, true_negative),</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">Type =</span> <span class="fu">c</span>(<span class="st">"Correct"</span>, <span class="st">"Error"</span>, <span class="st">"Error"</span>, <span class="st">"Correct"</span>)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(test_results, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(Category, <span class="sc">-</span>Count), <span class="at">y =</span> Count, <span class="at">fill =</span> Type)) <span class="sc">+</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">round</span>(Count)), <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.5</span>, <span class="at">size =</span> <span class="fl">3.5</span>) <span class="sc">+</span></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"Correct"</span> <span class="ot">=</span> <span class="st">"#59a14f"</span>, <span class="st">"Error"</span> <span class="ot">=</span> <span class="st">"#e15759"</span>)) <span class="sc">+</span></span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">""</span>, <span class="at">y =</span> <span class="st">"Number of Women"</span>,</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"Screening Test Results: Universal Strategy"</span>,</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="fu">paste0</span>(<span class="st">"Cohort of "</span>, <span class="fu">format</span>(n_cohort, <span class="at">big.mark=</span><span class="st">","</span>), <span class="st">" pregnant women"</span>)) <span class="sc">+</span></span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>, <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">9</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div id="fig-test-results-universal" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-test-results-universal-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="session1_files/figure-html/fig-test-results-universal-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-test-results-universal-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Distribution of screening test results — Universal Screening
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Now let us calculate costs and outcomes:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Costs: Universal Screening ---</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Screening cost: everyone gets OGTT</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>cost_screening_universal <span class="ot">&lt;-</span> n_cohort <span class="sc">*</span> cost_ogtt</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Treatment costs: true positives + false positives receive treatment</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>cost_treatment_universal <span class="ot">&lt;-</span> (true_positive <span class="sc">+</span> false_positive) <span class="sc">*</span> cost_gdm_treatment</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Adverse outcome costs</span></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a><span class="co"># True positives: GDM treated → lower adverse probability</span></span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>adverse_tp <span class="ot">&lt;-</span> true_positive <span class="sc">*</span> p_adverse_gdm_treated</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>no_adverse_tp <span class="ot">&lt;-</span> true_positive <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> p_adverse_gdm_treated)</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a><span class="co"># False negatives: GDM untreated → higher adverse probability</span></span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>adverse_fn <span class="ot">&lt;-</span> false_negative <span class="sc">*</span> p_adverse_gdm_untreated</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>no_adverse_fn <span class="ot">&lt;-</span> false_negative <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> p_adverse_gdm_untreated)</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a><span class="co"># False positives: no GDM but treated → background adverse risk</span></span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>adverse_fp <span class="ot">&lt;-</span> false_positive <span class="sc">*</span> p_adverse_no_gdm</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>no_adverse_fp <span class="ot">&lt;-</span> false_positive <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> p_adverse_no_gdm)</span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a><span class="co"># True negatives: no GDM, correctly cleared → background risk</span></span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>adverse_tn <span class="ot">&lt;-</span> true_negative <span class="sc">*</span> p_adverse_no_gdm</span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>no_adverse_tn <span class="ot">&lt;-</span> true_negative <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> p_adverse_no_gdm)</span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Total adverse outcomes and costs</span></span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>total_adverse_universal <span class="ot">&lt;-</span> adverse_tp <span class="sc">+</span> adverse_fn <span class="sc">+</span> adverse_fp <span class="sc">+</span> adverse_tn</span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>total_no_adverse_universal <span class="ot">&lt;-</span> no_adverse_tp <span class="sc">+</span> no_adverse_fn <span class="sc">+</span> no_adverse_fp <span class="sc">+</span> no_adverse_tn</span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a>cost_outcomes_universal <span class="ot">&lt;-</span> total_adverse_universal <span class="sc">*</span> cost_adverse <span class="sc">+</span></span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a>                           total_no_adverse_universal <span class="sc">*</span> cost_no_adverse</span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Total cost</span></span>
+<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a>total_cost_universal <span class="ot">&lt;-</span> cost_screening_universal <span class="sc">+</span> cost_treatment_universal <span class="sc">+</span></span>
+<span id="cb16-35"><a href="#cb16-35" aria-hidden="true" tabindex="-1"></a>                        cost_outcomes_universal</span>
+<span id="cb16-36"><a href="#cb16-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-37"><a href="#cb16-37" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"=== Universal Screening: Cost Summary ===</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>=== Universal Screening: Cost Summary ===</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Screening cost: ₹"</span>, <span class="fu">format</span>(cost_screening_universal, <span class="at">big.mark =</span> <span class="st">","</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Screening cost: ₹ 2,500,000 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Treatment cost: ₹"</span>, <span class="fu">format</span>(cost_treatment_universal, <span class="at">big.mark =</span> <span class="st">","</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Treatment cost: ₹ 19,200,000 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Outcome costs: ₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(cost_outcomes_universal), <span class="at">big.mark =</span> <span class="st">","</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Outcome costs: ₹ 73,600,000 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"TOTAL COST: ₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(total_cost_universal), <span class="at">big.mark =</span> <span class="st">","</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>TOTAL COST: ₹ 95,300,000 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"</span><span class="sc">\n</span><span class="st">Adverse outcomes:"</span>, <span class="fu">round</span>(total_adverse_universal), <span class="st">"out of"</span>, n_cohort, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Adverse outcomes: 590 out of 10000 </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># --- QALYs: Universal Screening ---</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="co"># QALYs by group</span></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>qaly_tp <span class="ot">&lt;-</span> true_positive <span class="sc">*</span> ((<span class="dv">1</span> <span class="sc">-</span> p_adverse_gdm_treated) <span class="sc">*</span> utility_gdm_treated <span class="sc">+</span></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>           p_adverse_gdm_treated <span class="sc">*</span> utility_adverse)</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>qaly_fn <span class="ot">&lt;-</span> false_negative <span class="sc">*</span> ((<span class="dv">1</span> <span class="sc">-</span> p_adverse_gdm_untreated) <span class="sc">*</span> utility_no_adverse <span class="sc">+</span></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>           p_adverse_gdm_untreated <span class="sc">*</span> utility_adverse)</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>qaly_fp <span class="ot">&lt;-</span> false_positive <span class="sc">*</span> ((<span class="dv">1</span> <span class="sc">-</span> p_adverse_no_gdm) <span class="sc">*</span> utility_gdm_treated <span class="sc">+</span></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>           p_adverse_no_gdm <span class="sc">*</span> utility_adverse)</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>qaly_tn <span class="ot">&lt;-</span> true_negative <span class="sc">*</span> ((<span class="dv">1</span> <span class="sc">-</span> p_adverse_no_gdm) <span class="sc">*</span> utility_no_adverse <span class="sc">+</span></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>           p_adverse_no_gdm <span class="sc">*</span> utility_adverse)</span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>total_qaly_universal <span class="ot">&lt;-</span> qaly_tp <span class="sc">+</span> qaly_fn <span class="sc">+</span> qaly_fp <span class="sc">+</span> qaly_tn</span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Total QALYs (Universal Screening):"</span>, <span class="fu">round</span>(total_qaly_universal, <span class="dv">1</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Total QALYs (Universal Screening): 8674.4 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Mean QALY per woman:"</span>, <span class="fu">round</span>(total_qaly_universal <span class="sc">/</span> n_cohort, <span class="dv">4</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Mean QALY per woman: 0.8674 </code></pre>
+</div>
+</div>
+</section>
+<section id="strategy-2-risk-based-screening" class="level3">
+<h3 class="anchored" data-anchor-id="strategy-2-risk-based-screening">Strategy 2: Risk-Based Screening</h3>
+<p>Only high-risk women are offered OGTT. Low-risk women are not screened.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Risk-Based Screening Strategy ---</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>n_high_risk <span class="ot">&lt;-</span> n_cohort <span class="sc">*</span> prop_high_risk</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>n_low_risk  <span class="ot">&lt;-</span> n_cohort <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> prop_high_risk)</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Among high-risk women</span></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>n_gdm_hr    <span class="ot">&lt;-</span> n_high_risk <span class="sc">*</span> prev_gdm_high_risk</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>n_no_gdm_hr <span class="ot">&lt;-</span> n_high_risk <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> prev_gdm_high_risk)</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>tp_hr <span class="ot">&lt;-</span> n_gdm_hr <span class="sc">*</span> sens_ogtt</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>fn_hr <span class="ot">&lt;-</span> n_gdm_hr <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> sens_ogtt)</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>fp_hr <span class="ot">&lt;-</span> n_no_gdm_hr <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> spec_ogtt)</span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>tn_hr <span class="ot">&lt;-</span> n_no_gdm_hr <span class="sc">*</span> spec_ogtt</span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Among low-risk women (NOT screened — GDM undetected)</span></span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>n_gdm_lr    <span class="ot">&lt;-</span> n_low_risk <span class="sc">*</span> prev_gdm_low_risk</span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a>n_no_gdm_lr <span class="ot">&lt;-</span> n_low_risk <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> prev_gdm_low_risk)</span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-19"><a href="#cb32-19" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"=== Risk-Based Screening Results ===</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>=== Risk-Based Screening Results ===</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"High-risk women screened:"</span>, n_high_risk, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>High-risk women screened: 6000 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Low-risk women NOT screened:"</span>, n_low_risk, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Low-risk women NOT screened: 4000 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"GDM detected (high-risk true positives):"</span>, tp_hr, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>GDM detected (high-risk true positives): 972 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"GDM missed in high-risk (false negatives):"</span>, fn_hr, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>GDM missed in high-risk (false negatives): 108 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"GDM missed in low-risk (never screened):"</span>, n_gdm_lr, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>GDM missed in low-risk (never screened): 120 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Total GDM missed:"</span>, fn_hr <span class="sc">+</span> n_gdm_lr, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Total GDM missed: 228 </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb46"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Costs: Risk-Based Screening ---</span></span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Screening cost: risk assessment for all, OGTT only for high-risk</span></span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>cost_screening_risk <span class="ot">&lt;-</span> n_cohort <span class="sc">*</span> cost_risk_assessment <span class="sc">+</span> n_high_risk <span class="sc">*</span> cost_ogtt</span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Treatment cost: only high-risk true positives + false positives</span></span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a>cost_treatment_risk <span class="ot">&lt;-</span> (tp_hr <span class="sc">+</span> fp_hr) <span class="sc">*</span> cost_gdm_treatment</span>
+<span id="cb46-8"><a href="#cb46-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-9"><a href="#cb46-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Adverse outcomes</span></span>
+<span id="cb46-10"><a href="#cb46-10" aria-hidden="true" tabindex="-1"></a><span class="co"># High-risk: detected GDM (treated)</span></span>
+<span id="cb46-11"><a href="#cb46-11" aria-hidden="true" tabindex="-1"></a>adverse_tp_hr <span class="ot">&lt;-</span> tp_hr <span class="sc">*</span> p_adverse_gdm_treated</span>
+<span id="cb46-12"><a href="#cb46-12" aria-hidden="true" tabindex="-1"></a><span class="co"># High-risk: missed GDM (untreated)</span></span>
+<span id="cb46-13"><a href="#cb46-13" aria-hidden="true" tabindex="-1"></a>adverse_fn_hr <span class="ot">&lt;-</span> fn_hr <span class="sc">*</span> p_adverse_gdm_untreated</span>
+<span id="cb46-14"><a href="#cb46-14" aria-hidden="true" tabindex="-1"></a><span class="co"># High-risk: false positives (background risk)</span></span>
+<span id="cb46-15"><a href="#cb46-15" aria-hidden="true" tabindex="-1"></a>adverse_fp_hr <span class="ot">&lt;-</span> fp_hr <span class="sc">*</span> p_adverse_no_gdm</span>
+<span id="cb46-16"><a href="#cb46-16" aria-hidden="true" tabindex="-1"></a><span class="co"># High-risk: true negatives</span></span>
+<span id="cb46-17"><a href="#cb46-17" aria-hidden="true" tabindex="-1"></a>adverse_tn_hr <span class="ot">&lt;-</span> tn_hr <span class="sc">*</span> p_adverse_no_gdm</span>
+<span id="cb46-18"><a href="#cb46-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Low-risk: undetected GDM</span></span>
+<span id="cb46-19"><a href="#cb46-19" aria-hidden="true" tabindex="-1"></a>adverse_gdm_lr <span class="ot">&lt;-</span> n_gdm_lr <span class="sc">*</span> p_adverse_gdm_untreated</span>
+<span id="cb46-20"><a href="#cb46-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Low-risk: no GDM</span></span>
+<span id="cb46-21"><a href="#cb46-21" aria-hidden="true" tabindex="-1"></a>adverse_no_gdm_lr <span class="ot">&lt;-</span> n_no_gdm_lr <span class="sc">*</span> p_adverse_no_gdm</span>
+<span id="cb46-22"><a href="#cb46-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-23"><a href="#cb46-23" aria-hidden="true" tabindex="-1"></a>total_adverse_risk <span class="ot">&lt;-</span> adverse_tp_hr <span class="sc">+</span> adverse_fn_hr <span class="sc">+</span> adverse_fp_hr <span class="sc">+</span></span>
+<span id="cb46-24"><a href="#cb46-24" aria-hidden="true" tabindex="-1"></a>                      adverse_tn_hr <span class="sc">+</span> adverse_gdm_lr <span class="sc">+</span> adverse_no_gdm_lr</span>
+<span id="cb46-25"><a href="#cb46-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-26"><a href="#cb46-26" aria-hidden="true" tabindex="-1"></a>total_no_adverse_risk <span class="ot">&lt;-</span> n_cohort <span class="sc">-</span> total_adverse_risk  <span class="co"># Simplified</span></span>
+<span id="cb46-27"><a href="#cb46-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-28"><a href="#cb46-28" aria-hidden="true" tabindex="-1"></a>cost_outcomes_risk <span class="ot">&lt;-</span> total_adverse_risk <span class="sc">*</span> cost_adverse <span class="sc">+</span></span>
+<span id="cb46-29"><a href="#cb46-29" aria-hidden="true" tabindex="-1"></a>                      total_no_adverse_risk <span class="sc">*</span> cost_no_adverse</span>
+<span id="cb46-30"><a href="#cb46-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-31"><a href="#cb46-31" aria-hidden="true" tabindex="-1"></a>total_cost_risk <span class="ot">&lt;-</span> cost_screening_risk <span class="sc">+</span> cost_treatment_risk <span class="sc">+</span> cost_outcomes_risk</span>
+<span id="cb46-32"><a href="#cb46-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-33"><a href="#cb46-33" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"=== Risk-Based Screening: Cost Summary ===</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>=== Risk-Based Screening: Cost Summary ===</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb48"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Screening cost: ₹"</span>, <span class="fu">format</span>(cost_screening_risk, <span class="at">big.mark =</span> <span class="st">","</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Screening cost: ₹ 2e+06 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb50"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Treatment cost: ₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(cost_treatment_risk), <span class="at">big.mark =</span> <span class="st">","</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Treatment cost: ₹ 13,680,000 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Outcome costs: ₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(cost_outcomes_risk), <span class="at">big.mark =</span> <span class="st">","</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Outcome costs: ₹ 74,680,000 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb54"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"TOTAL COST: ₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(total_cost_risk), <span class="at">big.mark =</span> <span class="st">","</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>TOTAL COST: ₹ 90,360,000 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb56"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"</span><span class="sc">\n</span><span class="st">Adverse outcomes:"</span>, <span class="fu">round</span>(total_adverse_risk), <span class="st">"out of"</span>, n_cohort, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Adverse outcomes: 617 out of 10000 </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb58"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="co"># --- QALYs: Risk-Based Screening ---</span></span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a>qaly_tp_hr <span class="ot">&lt;-</span> tp_hr <span class="sc">*</span> ((<span class="dv">1</span> <span class="sc">-</span> p_adverse_gdm_treated) <span class="sc">*</span> utility_gdm_treated <span class="sc">+</span></span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a>              p_adverse_gdm_treated <span class="sc">*</span> utility_adverse)</span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a>qaly_fn_hr <span class="ot">&lt;-</span> fn_hr <span class="sc">*</span> ((<span class="dv">1</span> <span class="sc">-</span> p_adverse_gdm_untreated) <span class="sc">*</span> utility_no_adverse <span class="sc">+</span></span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a>              p_adverse_gdm_untreated <span class="sc">*</span> utility_adverse)</span>
+<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a>qaly_fp_hr <span class="ot">&lt;-</span> fp_hr <span class="sc">*</span> ((<span class="dv">1</span> <span class="sc">-</span> p_adverse_no_gdm) <span class="sc">*</span> utility_gdm_treated <span class="sc">+</span></span>
+<span id="cb58-8"><a href="#cb58-8" aria-hidden="true" tabindex="-1"></a>              p_adverse_no_gdm <span class="sc">*</span> utility_adverse)</span>
+<span id="cb58-9"><a href="#cb58-9" aria-hidden="true" tabindex="-1"></a>qaly_tn_hr <span class="ot">&lt;-</span> tn_hr <span class="sc">*</span> ((<span class="dv">1</span> <span class="sc">-</span> p_adverse_no_gdm) <span class="sc">*</span> utility_no_adverse <span class="sc">+</span></span>
+<span id="cb58-10"><a href="#cb58-10" aria-hidden="true" tabindex="-1"></a>              p_adverse_no_gdm <span class="sc">*</span> utility_adverse)</span>
+<span id="cb58-11"><a href="#cb58-11" aria-hidden="true" tabindex="-1"></a>qaly_gdm_lr <span class="ot">&lt;-</span> n_gdm_lr <span class="sc">*</span> ((<span class="dv">1</span> <span class="sc">-</span> p_adverse_gdm_untreated) <span class="sc">*</span> utility_no_adverse <span class="sc">+</span></span>
+<span id="cb58-12"><a href="#cb58-12" aria-hidden="true" tabindex="-1"></a>               p_adverse_gdm_untreated <span class="sc">*</span> utility_adverse)</span>
+<span id="cb58-13"><a href="#cb58-13" aria-hidden="true" tabindex="-1"></a>qaly_no_gdm_lr <span class="ot">&lt;-</span> n_no_gdm_lr <span class="sc">*</span> ((<span class="dv">1</span> <span class="sc">-</span> p_adverse_no_gdm) <span class="sc">*</span> utility_no_adverse <span class="sc">+</span></span>
+<span id="cb58-14"><a href="#cb58-14" aria-hidden="true" tabindex="-1"></a>                  p_adverse_no_gdm <span class="sc">*</span> utility_adverse)</span>
+<span id="cb58-15"><a href="#cb58-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-16"><a href="#cb58-16" aria-hidden="true" tabindex="-1"></a>total_qaly_risk <span class="ot">&lt;-</span> qaly_tp_hr <span class="sc">+</span> qaly_fn_hr <span class="sc">+</span> qaly_fp_hr <span class="sc">+</span></span>
+<span id="cb58-17"><a href="#cb58-17" aria-hidden="true" tabindex="-1"></a>                   qaly_tn_hr <span class="sc">+</span> qaly_gdm_lr <span class="sc">+</span> qaly_no_gdm_lr</span>
+<span id="cb58-18"><a href="#cb58-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-19"><a href="#cb58-19" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Total QALYs (Risk-Based Screening):"</span>, <span class="fu">round</span>(total_qaly_risk, <span class="dv">1</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Total QALYs (Risk-Based Screening): 8719.7 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb60"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Mean QALY per woman:"</span>, <span class="fu">round</span>(total_qaly_risk <span class="sc">/</span> n_cohort, <span class="dv">4</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Mean QALY per woman: 0.872 </code></pre>
+</div>
+</div>
+</section>
+<section id="strategy-3-no-formal-screening" class="level3">
+<h3 class="anchored" data-anchor-id="strategy-3-no-formal-screening">Strategy 3: No Formal Screening</h3>
+<p>GDM is detected only when symptomatic (estimated detection rate ~25% based on clinical presentation alone).</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb62"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="co"># --- No Screening Strategy ---</span></span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Detection rate through clinical presentation alone</span></span>
+<span id="cb62-4"><a href="#cb62-4" aria-hidden="true" tabindex="-1"></a>detection_rate_clinical <span class="ot">&lt;-</span> <span class="fl">0.25</span></span>
+<span id="cb62-5"><a href="#cb62-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-6"><a href="#cb62-6" aria-hidden="true" tabindex="-1"></a>n_gdm_total <span class="ot">&lt;-</span> n_cohort <span class="sc">*</span> prev_gdm</span>
+<span id="cb62-7"><a href="#cb62-7" aria-hidden="true" tabindex="-1"></a>n_no_gdm_total <span class="ot">&lt;-</span> n_cohort <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> prev_gdm)</span>
+<span id="cb62-8"><a href="#cb62-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-9"><a href="#cb62-9" aria-hidden="true" tabindex="-1"></a>n_gdm_detected_clinical <span class="ot">&lt;-</span> n_gdm_total <span class="sc">*</span> detection_rate_clinical</span>
+<span id="cb62-10"><a href="#cb62-10" aria-hidden="true" tabindex="-1"></a>n_gdm_undetected <span class="ot">&lt;-</span> n_gdm_total <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> detection_rate_clinical)</span>
+<span id="cb62-11"><a href="#cb62-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-12"><a href="#cb62-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Costs: no screening cost, treatment only for clinically detected</span></span>
+<span id="cb62-13"><a href="#cb62-13" aria-hidden="true" tabindex="-1"></a>cost_screening_none <span class="ot">&lt;-</span> <span class="dv">0</span></span>
+<span id="cb62-14"><a href="#cb62-14" aria-hidden="true" tabindex="-1"></a>cost_treatment_none <span class="ot">&lt;-</span> n_gdm_detected_clinical <span class="sc">*</span> cost_gdm_treatment</span>
+<span id="cb62-15"><a href="#cb62-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-16"><a href="#cb62-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Adverse outcomes</span></span>
+<span id="cb62-17"><a href="#cb62-17" aria-hidden="true" tabindex="-1"></a>adverse_detected <span class="ot">&lt;-</span> n_gdm_detected_clinical <span class="sc">*</span> p_adverse_gdm_treated</span>
+<span id="cb62-18"><a href="#cb62-18" aria-hidden="true" tabindex="-1"></a>adverse_undetected <span class="ot">&lt;-</span> n_gdm_undetected <span class="sc">*</span> p_adverse_gdm_untreated</span>
+<span id="cb62-19"><a href="#cb62-19" aria-hidden="true" tabindex="-1"></a>adverse_no_gdm_none <span class="ot">&lt;-</span> n_no_gdm_total <span class="sc">*</span> p_adverse_no_gdm</span>
+<span id="cb62-20"><a href="#cb62-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-21"><a href="#cb62-21" aria-hidden="true" tabindex="-1"></a>total_adverse_none <span class="ot">&lt;-</span> adverse_detected <span class="sc">+</span> adverse_undetected <span class="sc">+</span> adverse_no_gdm_none</span>
+<span id="cb62-22"><a href="#cb62-22" aria-hidden="true" tabindex="-1"></a>total_no_adverse_none <span class="ot">&lt;-</span> n_cohort <span class="sc">-</span> total_adverse_none</span>
+<span id="cb62-23"><a href="#cb62-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-24"><a href="#cb62-24" aria-hidden="true" tabindex="-1"></a>cost_outcomes_none <span class="ot">&lt;-</span> total_adverse_none <span class="sc">*</span> cost_adverse <span class="sc">+</span></span>
+<span id="cb62-25"><a href="#cb62-25" aria-hidden="true" tabindex="-1"></a>                      total_no_adverse_none <span class="sc">*</span> cost_no_adverse</span>
+<span id="cb62-26"><a href="#cb62-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-27"><a href="#cb62-27" aria-hidden="true" tabindex="-1"></a>total_cost_none <span class="ot">&lt;-</span> cost_screening_none <span class="sc">+</span> cost_treatment_none <span class="sc">+</span> cost_outcomes_none</span>
+<span id="cb62-28"><a href="#cb62-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-29"><a href="#cb62-29" aria-hidden="true" tabindex="-1"></a><span class="co"># QALYs</span></span>
+<span id="cb62-30"><a href="#cb62-30" aria-hidden="true" tabindex="-1"></a>qaly_detected <span class="ot">&lt;-</span> n_gdm_detected_clinical <span class="sc">*</span> ((<span class="dv">1</span> <span class="sc">-</span> p_adverse_gdm_treated) <span class="sc">*</span> utility_gdm_treated <span class="sc">+</span></span>
+<span id="cb62-31"><a href="#cb62-31" aria-hidden="true" tabindex="-1"></a>                 p_adverse_gdm_treated <span class="sc">*</span> utility_adverse)</span>
+<span id="cb62-32"><a href="#cb62-32" aria-hidden="true" tabindex="-1"></a>qaly_undetected <span class="ot">&lt;-</span> n_gdm_undetected <span class="sc">*</span> ((<span class="dv">1</span> <span class="sc">-</span> p_adverse_gdm_untreated) <span class="sc">*</span> utility_no_adverse <span class="sc">+</span></span>
+<span id="cb62-33"><a href="#cb62-33" aria-hidden="true" tabindex="-1"></a>                   p_adverse_gdm_untreated <span class="sc">*</span> utility_adverse)</span>
+<span id="cb62-34"><a href="#cb62-34" aria-hidden="true" tabindex="-1"></a>qaly_no_gdm_none <span class="ot">&lt;-</span> n_no_gdm_total <span class="sc">*</span> ((<span class="dv">1</span> <span class="sc">-</span> p_adverse_no_gdm) <span class="sc">*</span> utility_no_adverse <span class="sc">+</span></span>
+<span id="cb62-35"><a href="#cb62-35" aria-hidden="true" tabindex="-1"></a>                    p_adverse_no_gdm <span class="sc">*</span> utility_adverse)</span>
+<span id="cb62-36"><a href="#cb62-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-37"><a href="#cb62-37" aria-hidden="true" tabindex="-1"></a>total_qaly_none <span class="ot">&lt;-</span> qaly_detected <span class="sc">+</span> qaly_undetected <span class="sc">+</span> qaly_no_gdm_none</span>
+<span id="cb62-38"><a href="#cb62-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-39"><a href="#cb62-39" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"=== No Screening: Results ===</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>=== No Screening: Results ===</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb64"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"GDM detected clinically:"</span>, n_gdm_detected_clinical, <span class="st">"out of"</span>, n_gdm_total, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>GDM detected clinically: 300 out of 1200 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb66"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"TOTAL COST: ₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(total_cost_none), <span class="at">big.mark =</span> <span class="st">","</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>TOTAL COST: ₹ 83,800,000 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb68"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Adverse outcomes:"</span>, <span class="fu">round</span>(total_adverse_none), <span class="st">"out of"</span>, n_cohort, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Adverse outcomes: 785 out of 10000 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb70"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Total QALYs:"</span>, <span class="fu">round</span>(total_qaly_none, <span class="dv">1</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Total QALYs: 8782.1 </code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="comparing-the-three-strategies" class="level2">
+<h2 class="anchored" data-anchor-id="comparing-the-three-strategies">Comparing the Three Strategies</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb72"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Summary Comparison ---</span></span>
+<span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb72-3"><a href="#cb72-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb72-4"><a href="#cb72-4" aria-hidden="true" tabindex="-1"></a>results <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb72-5"><a href="#cb72-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">Strategy =</span> <span class="fu">c</span>(<span class="st">"Universal Screening"</span>, <span class="st">"Risk-Based Screening"</span>, <span class="st">"No Screening"</span>),</span>
+<span id="cb72-6"><a href="#cb72-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">Total_Cost =</span> <span class="fu">c</span>(total_cost_universal, total_cost_risk, total_cost_none),</span>
+<span id="cb72-7"><a href="#cb72-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">Total_QALYs =</span> <span class="fu">c</span>(total_qaly_universal, total_qaly_risk, total_qaly_none),</span>
+<span id="cb72-8"><a href="#cb72-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">Adverse_Outcomes =</span> <span class="fu">c</span>(total_adverse_universal, total_adverse_risk, total_adverse_none)</span>
+<span id="cb72-9"><a href="#cb72-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb72-10"><a href="#cb72-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb72-11"><a href="#cb72-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Format for display</span></span>
+<span id="cb72-12"><a href="#cb72-12" aria-hidden="true" tabindex="-1"></a>results<span class="sc">$</span>Cost_per_Woman <span class="ot">&lt;-</span> results<span class="sc">$</span>Total_Cost <span class="sc">/</span> n_cohort</span>
+<span id="cb72-13"><a href="#cb72-13" aria-hidden="true" tabindex="-1"></a>results<span class="sc">$</span>QALY_per_Woman <span class="ot">&lt;-</span> results<span class="sc">$</span>Total_QALYs <span class="sc">/</span> n_cohort</span>
+<span id="cb72-14"><a href="#cb72-14" aria-hidden="true" tabindex="-1"></a>results<span class="sc">$</span>Adverse_Rate <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="fu">round</span>(results<span class="sc">$</span>Adverse_Outcomes <span class="sc">/</span> n_cohort <span class="sc">*</span> <span class="dv">100</span>, <span class="dv">1</span>), <span class="st">"%"</span>)</span>
+<span id="cb72-15"><a href="#cb72-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb72-16"><a href="#cb72-16" aria-hidden="true" tabindex="-1"></a>results<span class="sc">$</span>Total_Cost <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(results<span class="sc">$</span>Total_Cost), <span class="at">big.mark =</span> <span class="st">","</span>))</span>
+<span id="cb72-17"><a href="#cb72-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb72-18"><a href="#cb72-18" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(results[, <span class="fu">c</span>(<span class="st">"Strategy"</span>, <span class="st">"Total_Cost"</span>, <span class="st">"QALY_per_Woman"</span>, <span class="st">"Adverse_Rate"</span>)],</span>
+<span id="cb72-19"><a href="#cb72-19" aria-hidden="true" tabindex="-1"></a>      <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"Strategy"</span>, <span class="st">"Total Cost (cohort)"</span>, <span class="st">"QALY per Woman"</span>, <span class="st">"Adverse Outcome Rate"</span>),</span>
+<span id="cb72-20"><a href="#cb72-20" aria-hidden="true" tabindex="-1"></a>      <span class="at">digits =</span> <span class="dv">4</span>,</span>
+<span id="cb72-21"><a href="#cb72-21" aria-hidden="true" tabindex="-1"></a>      <span class="at">caption =</span> <span class="st">"Comparison of GDM Screening Strategies (cohort of 10,000 women)"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Comparison of GDM Screening Strategies (cohort of 10,000 women)</caption>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 25%">
+<col style="width: 19%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Strategy</th>
+<th style="text-align: left;">Total Cost (cohort)</th>
+<th style="text-align: right;">QALY per Woman</th>
+<th style="text-align: left;">Adverse Outcome Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Universal Screening</td>
+<td style="text-align: left;">₹95,300,000</td>
+<td style="text-align: right;">0.8674</td>
+<td style="text-align: left;">5.9%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Risk-Based Screening</td>
+<td style="text-align: left;">₹90,360,000</td>
+<td style="text-align: right;">0.8720</td>
+<td style="text-align: left;">6.2%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">No Screening</td>
+<td style="text-align: left;">₹83,800,000</td>
+<td style="text-align: right;">0.8782</td>
+<td style="text-align: left;">7.8%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb73"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a>adverse_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb73-2"><a href="#cb73-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Strategy =</span> <span class="fu">c</span>(<span class="st">"Universal</span><span class="sc">\n</span><span class="st">Screening"</span>, <span class="st">"Risk-Based</span><span class="sc">\n</span><span class="st">Screening"</span>, <span class="st">"No</span><span class="sc">\n</span><span class="st">Screening"</span>),</span>
+<span id="cb73-3"><a href="#cb73-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">Adverse_Rate =</span> <span class="fu">c</span>(total_adverse_universal <span class="sc">/</span> n_cohort <span class="sc">*</span> <span class="dv">100</span>,</span>
+<span id="cb73-4"><a href="#cb73-4" aria-hidden="true" tabindex="-1"></a>                   total_adverse_risk <span class="sc">/</span> n_cohort <span class="sc">*</span> <span class="dv">100</span>,</span>
+<span id="cb73-5"><a href="#cb73-5" aria-hidden="true" tabindex="-1"></a>                   total_adverse_none <span class="sc">/</span> n_cohort <span class="sc">*</span> <span class="dv">100</span>),</span>
+<span id="cb73-6"><a href="#cb73-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">Cost_Per_Woman =</span> <span class="fu">c</span>(total_cost_universal <span class="sc">/</span> n_cohort,</span>
+<span id="cb73-7"><a href="#cb73-7" aria-hidden="true" tabindex="-1"></a>                     total_cost_risk <span class="sc">/</span> n_cohort,</span>
+<span id="cb73-8"><a href="#cb73-8" aria-hidden="true" tabindex="-1"></a>                     total_cost_none <span class="sc">/</span> n_cohort)</span>
+<span id="cb73-9"><a href="#cb73-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb73-10"><a href="#cb73-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-11"><a href="#cb73-11" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gridExtra)</span>
+<span id="cb73-12"><a href="#cb73-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-13"><a href="#cb73-13" aria-hidden="true" tabindex="-1"></a>p1 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(adverse_data, <span class="fu">aes</span>(<span class="at">x =</span> Strategy, <span class="at">y =</span> Adverse_Rate, <span class="at">fill =</span> Strategy)) <span class="sc">+</span></span>
+<span id="cb73-14"><a href="#cb73-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span></span>
+<span id="cb73-15"><a href="#cb73-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">paste0</span>(<span class="fu">round</span>(Adverse_Rate, <span class="dv">1</span>), <span class="st">"%"</span>)), <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.5</span>, <span class="at">size =</span> <span class="fl">3.5</span>) <span class="sc">+</span></span>
+<span id="cb73-16"><a href="#cb73-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#59a14f"</span>, <span class="st">"#f28e2b"</span>, <span class="st">"#e15759"</span>)) <span class="sc">+</span></span>
+<span id="cb73-17"><a href="#cb73-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">""</span>, <span class="at">y =</span> <span class="st">"Adverse Outcome Rate (%)"</span>,</span>
+<span id="cb73-18"><a href="#cb73-18" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"Adverse Outcomes"</span>) <span class="sc">+</span></span>
+<span id="cb73-19"><a href="#cb73-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span>
+<span id="cb73-20"><a href="#cb73-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-21"><a href="#cb73-21" aria-hidden="true" tabindex="-1"></a>p2 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(adverse_data, <span class="fu">aes</span>(<span class="at">x =</span> Strategy, <span class="at">y =</span> Cost_Per_Woman, <span class="at">fill =</span> Strategy)) <span class="sc">+</span></span>
+<span id="cb73-22"><a href="#cb73-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span></span>
+<span id="cb73-23"><a href="#cb73-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">paste0</span>(<span class="st">"₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(Cost_Per_Woman), <span class="at">big.mark=</span><span class="st">","</span>))), <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb73-24"><a href="#cb73-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#59a14f"</span>, <span class="st">"#f28e2b"</span>, <span class="st">"#e15759"</span>)) <span class="sc">+</span></span>
+<span id="cb73-25"><a href="#cb73-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">""</span>, <span class="at">y =</span> <span class="st">"Cost per Woman (₹)"</span>,</span>
+<span id="cb73-26"><a href="#cb73-26" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"Total Cost per Woman"</span>) <span class="sc">+</span></span>
+<span id="cb73-27"><a href="#cb73-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span>
+<span id="cb73-28"><a href="#cb73-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-29"><a href="#cb73-29" aria-hidden="true" tabindex="-1"></a><span class="fu">grid.arrange</span>(p1, p2, <span class="at">ncol =</span> <span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div id="fig-adverse-comparison" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-adverse-comparison-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="session1_files/figure-html/fig-adverse-comparison-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-adverse-comparison-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Adverse outcome rates and costs across screening strategies
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="icer-and-net-monetary-benefit" class="level2">
+<h2 class="anchored" data-anchor-id="icer-and-net-monetary-benefit">ICER and Net Monetary Benefit</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb74"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-3"><a href="#cb74-3" aria-hidden="true" tabindex="-1"></a><span class="co"># --- ICER Calculations ---</span></span>
+<span id="cb74-4"><a href="#cb74-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Using no screening as the reference comparator</span></span>
+<span id="cb74-5"><a href="#cb74-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-6"><a href="#cb74-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Risk-based vs No screening</span></span>
+<span id="cb74-7"><a href="#cb74-7" aria-hidden="true" tabindex="-1"></a>inc_cost_risk_vs_none <span class="ot">&lt;-</span> total_cost_risk <span class="sc">-</span> total_cost_none</span>
+<span id="cb74-8"><a href="#cb74-8" aria-hidden="true" tabindex="-1"></a>inc_qaly_risk_vs_none <span class="ot">&lt;-</span> total_qaly_risk <span class="sc">-</span> total_qaly_none</span>
+<span id="cb74-9"><a href="#cb74-9" aria-hidden="true" tabindex="-1"></a>icer_risk_vs_none <span class="ot">&lt;-</span> inc_cost_risk_vs_none <span class="sc">/</span> inc_qaly_risk_vs_none</span>
+<span id="cb74-10"><a href="#cb74-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-11"><a href="#cb74-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Universal vs No screening</span></span>
+<span id="cb74-12"><a href="#cb74-12" aria-hidden="true" tabindex="-1"></a>inc_cost_univ_vs_none <span class="ot">&lt;-</span> total_cost_universal <span class="sc">-</span> total_cost_none</span>
+<span id="cb74-13"><a href="#cb74-13" aria-hidden="true" tabindex="-1"></a>inc_qaly_univ_vs_none <span class="ot">&lt;-</span> total_qaly_universal <span class="sc">-</span> total_qaly_none</span>
+<span id="cb74-14"><a href="#cb74-14" aria-hidden="true" tabindex="-1"></a>icer_univ_vs_none <span class="ot">&lt;-</span> inc_cost_univ_vs_none <span class="sc">/</span> inc_qaly_univ_vs_none</span>
+<span id="cb74-15"><a href="#cb74-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-16"><a href="#cb74-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Universal vs Risk-based</span></span>
+<span id="cb74-17"><a href="#cb74-17" aria-hidden="true" tabindex="-1"></a>inc_cost_univ_vs_risk <span class="ot">&lt;-</span> total_cost_universal <span class="sc">-</span> total_cost_risk</span>
+<span id="cb74-18"><a href="#cb74-18" aria-hidden="true" tabindex="-1"></a>inc_qaly_univ_vs_risk <span class="ot">&lt;-</span> total_qaly_universal <span class="sc">-</span> total_qaly_risk</span>
+<span id="cb74-19"><a href="#cb74-19" aria-hidden="true" tabindex="-1"></a>icer_univ_vs_risk <span class="ot">&lt;-</span> inc_cost_univ_vs_risk <span class="sc">/</span> inc_qaly_univ_vs_risk</span>
+<span id="cb74-20"><a href="#cb74-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-21"><a href="#cb74-21" aria-hidden="true" tabindex="-1"></a><span class="co"># WTP threshold</span></span>
+<span id="cb74-22"><a href="#cb74-22" aria-hidden="true" tabindex="-1"></a>wtp_india <span class="ot">&lt;-</span> <span class="dv">170000</span></span>
+<span id="cb74-23"><a href="#cb74-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-24"><a href="#cb74-24" aria-hidden="true" tabindex="-1"></a><span class="co"># --- 4-quadrant ICER interpretation ---</span></span>
+<span id="cb74-25"><a href="#cb74-25" aria-hidden="true" tabindex="-1"></a>interpret_icer <span class="ot">&lt;-</span> <span class="cf">function</span>(dc, dq, wtp) {</span>
+<span id="cb74-26"><a href="#cb74-26" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (dc <span class="sc">&lt;</span> <span class="dv">0</span> <span class="sc">&amp;</span> dq <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="fu">return</span>(<span class="st">"DOMINANT"</span>)</span>
+<span id="cb74-27"><a href="#cb74-27" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (dc <span class="sc">&gt;</span> <span class="dv">0</span> <span class="sc">&amp;</span> dq <span class="sc">&lt;</span> <span class="dv">0</span>) <span class="fu">return</span>(<span class="st">"DOMINATED"</span>)</span>
+<span id="cb74-28"><a href="#cb74-28" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (dc <span class="sc">&gt;</span> <span class="dv">0</span> <span class="sc">&amp;</span> dq <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="fu">return</span>(<span class="cf">if</span> (dc<span class="sc">/</span>dq <span class="sc">&lt;</span> wtp) <span class="st">"Cost-effective"</span> <span class="cf">else</span> <span class="st">"Not CE"</span>)</span>
+<span id="cb74-29"><a href="#cb74-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(<span class="st">"Trade-off (cheaper but worse)"</span>)</span>
+<span id="cb74-30"><a href="#cb74-30" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb74-31"><a href="#cb74-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-32"><a href="#cb74-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary table</span></span>
+<span id="cb74-33"><a href="#cb74-33" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(<span class="fu">data.frame</span>(</span>
+<span id="cb74-34"><a href="#cb74-34" aria-hidden="true" tabindex="-1"></a>  <span class="at">Comparison =</span> <span class="fu">c</span>(<span class="st">"Risk-Based vs No Screening"</span>,</span>
+<span id="cb74-35"><a href="#cb74-35" aria-hidden="true" tabindex="-1"></a>                 <span class="st">"Universal vs No Screening"</span>,</span>
+<span id="cb74-36"><a href="#cb74-36" aria-hidden="true" tabindex="-1"></a>                 <span class="st">"Universal vs Risk-Based"</span>),</span>
+<span id="cb74-37"><a href="#cb74-37" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Incr Cost/woman (₹)</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(</span>
+<span id="cb74-38"><a href="#cb74-38" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste0</span>(<span class="st">"₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(inc_cost_risk_vs_none <span class="sc">/</span> n_cohort), <span class="at">big.mark =</span> <span class="st">","</span>)),</span>
+<span id="cb74-39"><a href="#cb74-39" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste0</span>(<span class="st">"₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(inc_cost_univ_vs_none <span class="sc">/</span> n_cohort), <span class="at">big.mark =</span> <span class="st">","</span>)),</span>
+<span id="cb74-40"><a href="#cb74-40" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste0</span>(<span class="st">"₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(inc_cost_univ_vs_risk <span class="sc">/</span> n_cohort), <span class="at">big.mark =</span> <span class="st">","</span>))</span>
+<span id="cb74-41"><a href="#cb74-41" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb74-42"><a href="#cb74-42" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Incr QALYs/woman</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(</span>
+<span id="cb74-43"><a href="#cb74-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">round</span>(inc_qaly_risk_vs_none <span class="sc">/</span> n_cohort, <span class="dv">4</span>),</span>
+<span id="cb74-44"><a href="#cb74-44" aria-hidden="true" tabindex="-1"></a>    <span class="fu">round</span>(inc_qaly_univ_vs_none <span class="sc">/</span> n_cohort, <span class="dv">4</span>),</span>
+<span id="cb74-45"><a href="#cb74-45" aria-hidden="true" tabindex="-1"></a>    <span class="fu">round</span>(inc_qaly_univ_vs_risk <span class="sc">/</span> n_cohort, <span class="dv">4</span>)</span>
+<span id="cb74-46"><a href="#cb74-46" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb74-47"><a href="#cb74-47" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">ICER (₹/QALY)</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(</span>
+<span id="cb74-48"><a href="#cb74-48" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste0</span>(<span class="st">"₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(icer_risk_vs_none), <span class="at">big.mark =</span> <span class="st">","</span>)),</span>
+<span id="cb74-49"><a href="#cb74-49" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste0</span>(<span class="st">"₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(icer_univ_vs_none), <span class="at">big.mark =</span> <span class="st">","</span>)),</span>
+<span id="cb74-50"><a href="#cb74-50" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste0</span>(<span class="st">"₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(icer_univ_vs_risk), <span class="at">big.mark =</span> <span class="st">","</span>))</span>
+<span id="cb74-51"><a href="#cb74-51" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb74-52"><a href="#cb74-52" aria-hidden="true" tabindex="-1"></a>  <span class="at">Conclusion =</span> <span class="fu">c</span>(</span>
+<span id="cb74-53"><a href="#cb74-53" aria-hidden="true" tabindex="-1"></a>    <span class="fu">interpret_icer</span>(inc_cost_risk_vs_none, inc_qaly_risk_vs_none, wtp_india),</span>
+<span id="cb74-54"><a href="#cb74-54" aria-hidden="true" tabindex="-1"></a>    <span class="fu">interpret_icer</span>(inc_cost_univ_vs_none, inc_qaly_univ_vs_none, wtp_india),</span>
+<span id="cb74-55"><a href="#cb74-55" aria-hidden="true" tabindex="-1"></a>    <span class="fu">interpret_icer</span>(inc_cost_univ_vs_risk, inc_qaly_univ_vs_risk, wtp_india)</span>
+<span id="cb74-56"><a href="#cb74-56" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb74-57"><a href="#cb74-57" aria-hidden="true" tabindex="-1"></a>  <span class="at">check.names =</span> <span class="cn">FALSE</span></span>
+<span id="cb74-58"><a href="#cb74-58" aria-hidden="true" tabindex="-1"></a>), <span class="at">align =</span> <span class="st">"lrrrr"</span>,</span>
+<span id="cb74-59"><a href="#cb74-59" aria-hidden="true" tabindex="-1"></a>   <span class="at">caption =</span> <span class="fu">paste0</span>(<span class="st">"Incremental cost-effectiveness (WTP = ₹"</span>, <span class="fu">format</span>(wtp_india, <span class="at">big.mark =</span> <span class="st">","</span>), <span class="st">"/QALY)"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Incremental cost-effectiveness (WTP = ₹170,000/QALY)</caption>
+<colgroup>
+<col style="width: 30%">
+<col style="width: 22%">
+<col style="width: 19%">
+<col style="width: 15%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Comparison</th>
+<th style="text-align: right;">Incr Cost/woman (₹)</th>
+<th style="text-align: right;">Incr QALYs/woman</th>
+<th style="text-align: right;">ICER (₹/QALY)</th>
+<th style="text-align: right;">Conclusion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Risk-Based vs No Screening</td>
+<td style="text-align: right;">₹656</td>
+<td style="text-align: right;">-0.0062</td>
+<td style="text-align: right;">₹-105,007</td>
+<td style="text-align: right;">DOMINATED</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Universal vs No Screening</td>
+<td style="text-align: right;">₹1,150</td>
+<td style="text-align: right;">-0.0108</td>
+<td style="text-align: right;">₹-106,748</td>
+<td style="text-align: right;">DOMINATED</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Universal vs Risk-Based</td>
+<td style="text-align: right;">₹494</td>
+<td style="text-align: right;">-0.0045</td>
+<td style="text-align: right;">₹-109,152</td>
+<td style="text-align: right;">DOMINATED</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<section id="net-monetary-benefit" class="level3">
+<h3 class="anchored" data-anchor-id="net-monetary-benefit">Net Monetary Benefit</h3>
+<p>The ICER can be ambiguous when negative (DOMINANT and DOMINATED both produce negative ratios). The NMB gives an unambiguous answer: positive ΔNMB = adopt.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb75"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a><span class="co"># NMB = WTP × QALYs − Cost (per woman)</span></span>
+<span id="cb75-2"><a href="#cb75-2" aria-hidden="true" tabindex="-1"></a>nmb_none <span class="ot">&lt;-</span> wtp_india <span class="sc">*</span> (total_qaly_none <span class="sc">/</span> n_cohort) <span class="sc">-</span> (total_cost_none <span class="sc">/</span> n_cohort)</span>
+<span id="cb75-3"><a href="#cb75-3" aria-hidden="true" tabindex="-1"></a>nmb_risk <span class="ot">&lt;-</span> wtp_india <span class="sc">*</span> (total_qaly_risk <span class="sc">/</span> n_cohort) <span class="sc">-</span> (total_cost_risk <span class="sc">/</span> n_cohort)</span>
+<span id="cb75-4"><a href="#cb75-4" aria-hidden="true" tabindex="-1"></a>nmb_univ <span class="ot">&lt;-</span> wtp_india <span class="sc">*</span> (total_qaly_universal <span class="sc">/</span> n_cohort) <span class="sc">-</span> (total_cost_universal <span class="sc">/</span> n_cohort)</span>
+<span id="cb75-5"><a href="#cb75-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb75-6"><a href="#cb75-6" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(<span class="fu">data.frame</span>(</span>
+<span id="cb75-7"><a href="#cb75-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">Strategy =</span> <span class="fu">c</span>(<span class="st">"No Screening"</span>, <span class="st">"Risk-Based Screening"</span>, <span class="st">"Universal Screening"</span>),</span>
+<span id="cb75-8"><a href="#cb75-8" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">NMB per woman (₹)</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(</span>
+<span id="cb75-9"><a href="#cb75-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste0</span>(<span class="st">"₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(nmb_none), <span class="at">big.mark =</span> <span class="st">","</span>)),</span>
+<span id="cb75-10"><a href="#cb75-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste0</span>(<span class="st">"₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(nmb_risk), <span class="at">big.mark =</span> <span class="st">","</span>)),</span>
+<span id="cb75-11"><a href="#cb75-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste0</span>(<span class="st">"₹"</span>, <span class="fu">format</span>(<span class="fu">round</span>(nmb_univ), <span class="at">big.mark =</span> <span class="st">","</span>))</span>
+<span id="cb75-12"><a href="#cb75-12" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb75-13"><a href="#cb75-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">Ranking =</span> <span class="fu">rank</span>(<span class="sc">-</span><span class="fu">c</span>(nmb_none, nmb_risk, nmb_univ)),</span>
+<span id="cb75-14"><a href="#cb75-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">check.names =</span> <span class="cn">FALSE</span></span>
+<span id="cb75-15"><a href="#cb75-15" aria-hidden="true" tabindex="-1"></a>), <span class="at">align =</span> <span class="st">"lrr"</span>,</span>
+<span id="cb75-16"><a href="#cb75-16" aria-hidden="true" tabindex="-1"></a>   <span class="at">caption =</span> <span class="fu">paste0</span>(<span class="st">"Net Monetary Benefit (WTP = ₹"</span>, <span class="fu">format</span>(wtp_india, <span class="at">big.mark =</span> <span class="st">","</span>), <span class="st">"/QALY) — highest NMB is optimal"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Net Monetary Benefit (WTP = ₹170,000/QALY) — highest NMB is optimal</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Strategy</th>
+<th style="text-align: right;">NMB per woman (₹)</th>
+<th style="text-align: right;">Ranking</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">No Screening</td>
+<td style="text-align: right;">₹140,917</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Risk-Based Screening</td>
+<td style="text-align: right;">₹139,199</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Universal Screening</td>
+<td style="text-align: right;">₹137,935</td>
+<td style="text-align: right;">3</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Reading the NMB Table
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The strategy with the <strong>highest NMB</strong> is the optimal choice at the given WTP threshold. Unlike the ICER (which only compares pairs), NMB ranks all strategies simultaneously — making it easy to identify the best option when there are more than two comparators.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="visualising-the-results" class="level2">
+<h2 class="anchored" data-anchor-id="visualising-the-results">Visualising the Results</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb76"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb76-2"><a href="#cb76-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb76-3"><a href="#cb76-3" aria-hidden="true" tabindex="-1"></a>plot_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb76-4"><a href="#cb76-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">Strategy =</span> <span class="fu">c</span>(<span class="st">"No Screening"</span>, <span class="st">"Risk-Based"</span>, <span class="st">"Universal"</span>),</span>
+<span id="cb76-5"><a href="#cb76-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">Cost =</span> <span class="fu">c</span>(total_cost_none <span class="sc">/</span> n_cohort,</span>
+<span id="cb76-6"><a href="#cb76-6" aria-hidden="true" tabindex="-1"></a>           total_cost_risk <span class="sc">/</span> n_cohort,</span>
+<span id="cb76-7"><a href="#cb76-7" aria-hidden="true" tabindex="-1"></a>           total_cost_universal <span class="sc">/</span> n_cohort),</span>
+<span id="cb76-8"><a href="#cb76-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">QALY =</span> <span class="fu">c</span>(total_qaly_none <span class="sc">/</span> n_cohort,</span>
+<span id="cb76-9"><a href="#cb76-9" aria-hidden="true" tabindex="-1"></a>           total_qaly_risk <span class="sc">/</span> n_cohort,</span>
+<span id="cb76-10"><a href="#cb76-10" aria-hidden="true" tabindex="-1"></a>           total_qaly_universal <span class="sc">/</span> n_cohort)</span>
+<span id="cb76-11"><a href="#cb76-11" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb76-12"><a href="#cb76-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb76-13"><a href="#cb76-13" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(plot_data, <span class="fu">aes</span>(<span class="at">x =</span> QALY, <span class="at">y =</span> Cost, <span class="at">label =</span> Strategy)) <span class="sc">+</span></span>
+<span id="cb76-14"><a href="#cb76-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">4</span>, <span class="at">colour =</span> <span class="st">"steelblue"</span>) <span class="sc">+</span></span>
+<span id="cb76-15"><a href="#cb76-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">vjust =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">size =</span> <span class="fl">3.5</span>) <span class="sc">+</span></span>
+<span id="cb76-16"><a href="#cb76-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">colour =</span> <span class="st">"grey60"</span>) <span class="sc">+</span></span>
+<span id="cb76-17"><a href="#cb76-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb76-18"><a href="#cb76-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"QALYs per Woman"</span>,</span>
+<span id="cb76-19"><a href="#cb76-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Cost per Woman (₹)"</span>,</span>
+<span id="cb76-20"><a href="#cb76-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Cost-Effectiveness of GDM Screening Strategies"</span>,</span>
+<span id="cb76-21"><a href="#cb76-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Cohort of 10,000 pregnant women — Indian setting"</span></span>
+<span id="cb76-22"><a href="#cb76-22" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb76-23"><a href="#cb76-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb76-24"><a href="#cb76-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">expand_limits</span>(<span class="at">y =</span> <span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="session1_files/figure-html/results-plot-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Cost-effectiveness comparison of GDM screening strategies</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="what-you-just-did" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-just-did">What You Just Did</h2>
+<p>Without writing any code from scratch, you followed a complete diagnostic decision tree analysis:</p>
+<ol type="1">
+<li><strong>Defined the clinical question</strong> using Indian epidemiological data</li>
+<li><strong>Structured the decision tree</strong> with three screening strategies</li>
+<li><strong>Populated it with parameters</strong> from published Indian literature</li>
+<li><strong>Calculated costs, QALYs, and ICERs</strong> for each strategy</li>
+<li><strong>Visualised the results</strong> on a cost-effectiveness plane</li>
+</ol>
+<p>In Excel, changing a single parameter (say, GDM prevalence) would require tracing through multiple cells. In R, you change one number at the top and re-run the entire analysis.</p>
+</section>
+<section id="key-references" class="level2">
+<h2 class="anchored" data-anchor-id="key-references">Key References</h2>
+<ul>
+<li>Pujitha KS et al.&nbsp;(2024). National and regional prevalence of gestational diabetes mellitus in India: a systematic review and meta-analysis. <em>BMC Public Health</em>.</li>
+<li>Seshiah V et al.&nbsp;(2008). Prevalence of gestational diabetes mellitus in South India. <em>JAPI</em>.</li>
+<li>Mohan V et al.&nbsp;(2014). Comparison of screening for GDM using IADPSG, DIPSI, and WHO 1999 criteria.</li>
+<li>Behboudi-Gandevani S et al.&nbsp;(2019). Worldwide prevalence of GDM: a systematic review.</li>
+<li>HAPO Study Cooperative Research Group (2008). Hyperglycemia and Adverse Pregnancy Outcomes. <em>NEJM</em>.</li>
+<li>NHM India. National Guidelines for Diagnosis &amp; Management of Gestational Diabetes Mellitus.</li>
+<li>Moss JR et al.&nbsp;(2007). Cost-effectiveness of screening for GDM. <em>BJOG</em>.</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

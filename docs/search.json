@@ -1,103 +1,5 @@
 [
   {
-    "objectID": "HTA.html",
-    "href": "HTA.html",
-    "title": "Health Technology Assessment",
-    "section": "",
-    "text": "This course provides an overview of Health Technology Assessment and its role in evidence-informed healthcare decision-making."
-  },
-  {
-    "objectID": "HTA.html#course-overview",
-    "href": "HTA.html#course-overview",
-    "title": "Health Technology Assessment",
-    "section": "",
-    "text": "This course provides an overview of Health Technology Assessment and its role in evidence-informed healthcare decision-making."
-  },
-  {
-    "objectID": "HTA.html#topics-covered",
-    "href": "HTA.html#topics-covered",
-    "title": "Health Technology Assessment",
-    "section": "Topics Covered",
-    "text": "Topics Covered\n\nIntroduction to HTA\nClinical effectiveness\nSystematic review and meta-analysis\nCost-effectiveness analysis\nBudget impact analysis\nHTA reporting and policy translation"
-  },
-  {
-    "objectID": "HTA.html#target-audience",
-    "href": "HTA.html#target-audience",
-    "title": "Health Technology Assessment",
-    "section": "Target Audience",
-    "text": "Target Audience\nResearchers, policymakers, healthcare professionals, and postgraduate students."
-  },
-  {
-    "objectID": "HTA.html#duration",
-    "href": "HTA.html#duration",
-    "title": "Health Technology Assessment",
-    "section": "Duration",
-    "text": "Duration\n5 days"
-  },
-  {
-    "objectID": "HTA.html#mode",
-    "href": "HTA.html#mode",
-    "title": "Health Technology Assessment",
-    "section": "Mode",
-    "text": "Mode\nOnline / Offline / Hybrid"
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses",
-    "section": "",
-    "text": "Explore my courses and training programmes designed for students, researchers, and professionals in public health, health economics, and data analysis.\n\n\n\n\n\nHealth Economics\nAn introductory course covering health economic concepts, costing, economic evaluation, and decision-making in healthcare.\n\nHealth Economics Public Health\n\nView course details →\n\n\n\n\n\nR Workshop for Public Health\nA practical hands-on workshop on R programming, data cleaning, visualization, and statistical analysis for public health research.\n\nR Programming Data Analysis Public Health\n\nView course details →\n\n\n\n\n\nHealth Technology Assessment\nA course on HTA concepts, evidence synthesis, economic evaluation, and policy translation for evidence-informed decision-making.\n\nHTA Economic Evaluation Policy\n\nView course details →"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "health_economics.html",
-    "href": "health_economics.html",
-    "title": "Health Economics",
-    "section": "",
-    "text": "This course introduces students to the principles of health economics and its application in healthcare decision-making."
-  },
-  {
-    "objectID": "health_economics.html#course-overview",
-    "href": "health_economics.html#course-overview",
-    "title": "Health Economics",
-    "section": "",
-    "text": "This course introduces students to the principles of health economics and its application in healthcare decision-making."
-  },
-  {
-    "objectID": "health_economics.html#topics-covered",
-    "href": "health_economics.html#topics-covered",
-    "title": "Health Economics",
-    "section": "Topics Covered",
-    "text": "Topics Covered\n\nIntroduction to health economics\nDemand and supply in healthcare\nCosting in healthcare\nCost-effectiveness analysis\nCost-utility analysis\nBudget impact analysis"
-  },
-  {
-    "objectID": "health_economics.html#target-audience",
-    "href": "health_economics.html#target-audience",
-    "title": "Health Economics",
-    "section": "Target Audience",
-    "text": "Target Audience\nThis course is suitable for public health students, researchers, healthcare professionals, and policymakers."
-  },
-  {
-    "objectID": "health_economics.html#duration",
-    "href": "health_economics.html#duration",
-    "title": "Health Economics",
-    "section": "Duration",
-    "text": "Duration\n6 weeks"
-  },
-  {
-    "objectID": "health_economics.html#mode",
-    "href": "health_economics.html#mode",
-    "title": "Health Economics",
-    "section": "Mode",
-    "text": "Mode\nOnline / Offline"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Dr Junaid KP",
@@ -159,5 +61,445 @@
     "title": "Dr Junaid KP",
     "section": "Awards and Achievement",
     "text": "Awards and Achievement\n\nUniversity Grants Commission (UGC)- National Eligibility Test (NET), Qualification for Assistant Professor and Junior Research Fellowship\nTopper Badge in Online certification course by IIT Kanpur in ‘Economics of Health and Health care’\nElite Badge in Online certification course by IIT Roorkee in ‘Econometric modelling’\nElite badge in Online certification course by IIT Madras in ‘Python for Data Science’\nWon first prize in ‘Pre and Post-test’ competition in pre-conference CME workshop on ‘Health Econometrics’, IAPSMCON 2021\nWon third prize in poster presentation in World Conference on Criminology.\nWon First prize under the category of ‘Medical Speciality’ for poster ‘How much missing data is too much to impute for longitudinal health indicators? A preliminary guideline for the choice of the extent of missing proportion to impute with multiple imputations by chained equations’ in the 12th Annual Research Day, PGIMER, Chandigarh"
+  },
+  {
+    "objectID": "courses/R_for_HTA.html",
+    "href": "courses/R_for_HTA.html",
+    "title": "R for Health Technology Assessment",
+    "section": "",
+    "text": "This workshop is designed for beginners who want to use R for public health data analysis."
+  },
+  {
+    "objectID": "courses/R_for_HTA.html#course-overview",
+    "href": "courses/R_for_HTA.html#course-overview",
+    "title": "R for Health Technology Assessment",
+    "section": "",
+    "text": "This workshop is designed for beginners who want to use R for public health data analysis."
+  },
+  {
+    "objectID": "courses/R_for_HTA.html#topics-covered",
+    "href": "courses/R_for_HTA.html#topics-covered",
+    "title": "R for Health Technology Assessment",
+    "section": "Topics Covered",
+    "text": "Topics Covered\n\nIntroduction to R and RStudio\nData import and cleaning\nDescriptive statistics\nData visualization\nRegression analysis\nReport generation using Quarto"
+  },
+  {
+    "objectID": "courses/R_for_HTA.html#target-audience",
+    "href": "courses/R_for_HTA.html#target-audience",
+    "title": "R for Health Technology Assessment",
+    "section": "Target Audience",
+    "text": "Target Audience\nStudents, researchers, public health professionals, and health economists."
+  },
+  {
+    "objectID": "courses/R_for_HTA.html#duration",
+    "href": "courses/R_for_HTA.html#duration",
+    "title": "R for Health Technology Assessment",
+    "section": "Duration",
+    "text": "Duration\n3 days / 5 days"
+  },
+  {
+    "objectID": "courses/R_for_HTA.html#mode",
+    "href": "courses/R_for_HTA.html#mode",
+    "title": "R for Health Technology Assessment",
+    "section": "Mode",
+    "text": "Mode\nHands-on workshop"
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#topics-covered",
+    "href": "courses/r_for_hta/index.html#topics-covered",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Topics Covered",
+    "text": "Topics Covered\n\nIntroduction to R and RStudio\nData import and cleaning\nDescriptive statistics\nData visualization\nRegression analysis\nReport generation using Quarto",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#installing-r-and-r-studio",
+    "href": "courses/r_for_hta/index.html#installing-r-and-r-studio",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Installing R and R studio",
+    "text": "Installing R and R studio\nPlease ensure you have:\n\nR installed (version 4.3 or later) — Download R\nRStudio installed — Download RStudio\nRequired packages installed — run the setup code in the Setup Guide\n\nWatch the video on YouTube",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#r-vs-excel",
+    "href": "courses/r_for_hta/index.html#r-vs-excel",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "R vs Excel",
+    "text": "R vs Excel\nA side-by-side comparison of how the same HTA tasks look in Excel versus R — making the case for transparency, reproducibility, and scalability.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#what-r-makes-possible",
+    "href": "courses/r_for_hta/index.html#what-r-makes-possible",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "What R Makes Possible",
+    "text": "What R Makes Possible\nR does not replace your HTA knowledge. It gives you a different medium to express that knowledge — one that is:\n\nReproducible: Your entire analysis is a script. Anyone can re-run it and get the same result. The set.seed() function ensures that even probabilistic analyses produce identical output across runs, machines, and collaborators.\nScalable: Running 10,000 PSA iterations takes a fraction of a second. Running 100,000 is equally easy. Excel slows to a crawl; R does not.\nTransparent: A reviewer can read your code and see exactly what you did. No hidden cell references, no buried macros. Every assumption is explicit.\nVersion-controlled: With Git, every change is tracked, documented, and reversible. No more Model_v3_final_FINAL_revised.xlsx.\nFree and extensible: No license fees, no vendor lock-in. Thousands of R packages exist for health economics (heemod, hesim, dampack, BCEA), survival analysis (flexsurv, survminer), Bayesian methods, and visualisation.\nShifting the modelling pipeline from spreadsheet software (e.g. MS Excel) to script-based programming languages (e.g R).\n\n\n\n\n\n\n\nTipKey Takeaway\n\n\n\nR is not replacing your HTA expertise — it is giving that expertise a more powerful medium. The clinical judgement, the model structuring, the parameter selection — that remains yours. R simply makes the execution more reproducible, transparent, and scalable.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#the-rstudio-interface",
+    "href": "courses/r_for_hta/index.html#the-rstudio-interface",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "The RStudio Interface",
+    "text": "The RStudio Interface\nWhen you open RStudio, you see four panels. Understanding what each one does will help you follow along in every session.\n - Source Editor (top-left): Where you write and edit code files (.R, .qmd) - Console (bottom-left): Where code runs and output appears - Environment (top-right): Shows all variables and data currently in memory - Files / Plots / Help (bottom-right): File browser, plot viewer, package documentation",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#your-first-code",
+    "href": "courses/r_for_hta/index.html#your-first-code",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Your First Code",
+    "text": "Your First Code\nRun the chunk below to confirm everything is working. Click the green ▶ button.\n\nprint(\"Coding for better health decisions.\")\n\n[1] \"Coding for better health decisions.\"\n\n\nIf you see the text printed below the chunk, your setup is working correctly.\n\nComments\nIn R, the # symbol marks a comment — anything after it on that line is ignored by R. Comments are notes for the human reading the code, not instructions for the computer. You will see them throughout every session. Read them — they are often the clearest explanation of what a section of code is doing.\n\n# Print the text\nprint(\"Coding for better health decisions.\")\n\nprint(\"Coding for better health decisions.\") # Print the text\n\n# Multi-line comment\n# about printing the text\nprint(\"Coding for better health decisions.\")",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#assignment",
+    "href": "courses/r_for_hta/index.html#assignment",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Assignment",
+    "text": "Assignment\nIn R, you store a value under a name using the assignment operator &lt;-. Once stored, you can use the name anywhere in place of the value.\n\ntext &lt;- \"Coding for better health decisions.\"\nprint(text)\n\n[1] \"Coding for better health decisions.\"\n\n\nWhen you see &lt;- in workshop code, you know: this is where a value is stored, and this is what you change to explore a different scenario.\nYou may occasionally see -&gt; or = used for assignment in older code. Prefer &lt;- in your own work.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#operators",
+    "href": "courses/r_for_hta/index.html#operators",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Operators",
+    "text": "Operators\n\nArithmetic\nR handles all standard arithmetic. These operators appear throughout model calculations for costs, probabilities, and outcomes.\n\n2 + 5    # Addition\n\n[1] 7\n\n73 - 32  # Subtraction\n\n[1] 41\n\n47 * 7   # Multiplication\n\n[1] 329\n\n86 / 3   # Division\n\n[1] 28.66667\n\n8 ^ 2    # Exponentiation\n\n[1] 64\n\n\n\n\nRelational\nRelational operators compare two values and return TRUE or FALSE. You will encounter these inside conditional checks — for example, testing whether an ICER is below a cost-effectiveness threshold.\n\n5 &gt; 6    # Greater than\n\n[1] FALSE\n\n5 &lt; 6    # Less than\n\n[1] TRUE\n\n6 == 6   # Equal to — note the double == for comparison, not single =\n\n[1] TRUE\n\n8 &gt;= 5   # Greater than or equal to\n\n[1] TRUE\n\n7 &lt;= 10  # Less than or equal to\n\n[1] TRUE\n\n9 != 10  # Not equal to\n\n[1] TRUE",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#objects",
+    "href": "courses/r_for_hta/index.html#objects",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Objects",
+    "text": "Objects\nIn R, everything is stored as an object. The three types you will encounter most in this workshop are vectors, matrices, and data frames.\n\nVectors\nA vector is an ordered collection of values. Create one with c() — short for “combine”.\n\nvec &lt;- c(2, 4, 6, 8, 3, 5.5)\nvec\n\n[1] 2.0 4.0 6.0 8.0 3.0 5.5\n\n\nVectors can also have named elements — a pattern you will see constantly in HTA models, where each value corresponds to a health state or treatment strategy:\n\ncosts &lt;- c(treatment_A = 5000, treatment_B = 3000, treatment_C = 7000)\ncosts\n\ntreatment_A treatment_B treatment_C \n       5000        3000        7000 \n\n\nYou can retrieve a specific element by its position in the vector:\n\nvec[5]   # Fifth element of vec\n\n[1] 3\n\n\n\n\nMatrix\nA matrix is a two-dimensional object with rows and columns. In HTA, you will encounter matrices as transition probability tables for Markov models, where each cell holds the probability of moving from one health state to another.\n\nmat &lt;- matrix(1:36, nrow = 6, ncol = 6, byrow = FALSE)\nmat\n\n     [,1] [,2] [,3] [,4] [,5] [,6]\n[1,]    1    7   13   19   25   31\n[2,]    2    8   14   20   26   32\n[3,]    3    9   15   21   27   33\n[4,]    4   10   16   22   28   34\n[5,]    5   11   17   23   29   35\n[6,]    6   12   18   24   30   36\n\n\nYou can access a specific element, an entire column, or an entire row:\n\nmat[3, 5]   # Element at row 3, column 5\n\n[1] 27\n\nmat[, 5]    # Entire column 5\n\n[1] 25 26 27 28 29 30\n\nmat[5, ]    # Entire row 5\n\n[1]  5 11 17 23 29 35\n\n\n\n\nMatrix multiplication\n\nmat1 &lt;- matrix(c(3, 5, 1, 9), nrow = 2, ncol = 2, byrow = FALSE)\nmat2 &lt;- matrix(c(7, 4, 2, 8), nrow = 2, ncol = 2, byrow = FALSE)\n\nmat1 %*% mat2\n\n     [,1] [,2]\n[1,]   25   14\n[2,]   71   82\n\n\n\n\nData Frames\nA data frame is R’s equivalent of a spreadsheet table — rows are observations, columns are variables.\n\nage    &lt;- c(12, 24, NA, 23, 65, 33)          # NA = missing value\n\ngender &lt;- c(\"M\", \"F\", \"F\", \"M\", \"M\", \"F\")\n\noccu   &lt;- factor(c(1, 4, 3, 2, 4, 5),        # factor() = categorical variable\n                 levels = c(1:5),\n                 labels = c(\"Unemp\", \"Service\", \"Student\", \"Business\", \"Prof\"))\n\ndob    &lt;- c(as.Date(\"1993-01-16\"),            # as.Date() converts text to a date\n            as.Date(\"1963-12-24\"),\n            as.Date(\"1971-01-05\"),\n            as.Date(\"1982-11-11\"),\n            as.Date(\"1984-05-15\"),\n            as.Date(\"1999-03-07\"))\n\ndf &lt;- data.frame(age, gender, occu, dob)\ndf\n\n  age gender     occu        dob\n1  12      M    Unemp 1993-01-16\n2  24      F Business 1963-12-24\n3  NA      F  Student 1971-01-05\n4  23      M  Service 1982-11-11\n5  65      M Business 1984-05-15\n6  33      F     Prof 1999-03-07\n\n\nYou access a specific column using $:\n\ndf$age\n\n[1] 12 24 NA 23 65 33",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#functions",
+    "href": "courses/r_for_hta/index.html#functions",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Functions",
+    "text": "Functions\nA function takes one or more inputs (called arguments), does something with them, and returns an output. The general syntax is:\n\nfunction_name(argument1 = value1, argument2 = value2, ...)\n\nFor example, mean() calculates the average of a vector. The na.rm = TRUE argument tells it to remove missing values before calculating — without it, a single NA in the data will make the result NA.\n\nmean(x = df$age, na.rm = TRUE)\n\n[1] 31.4\n\n\n\n\n\n\n\n\nTipGetting help\n\n\n\nType ? followed by any function name in the Console to open its documentation — arguments, return values, and worked examples:\n?mean\n?round\n?ggplot",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#packages",
+    "href": "courses/r_for_hta/index.html#packages",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Packages",
+    "text": "Packages\nR’s base installation covers the basics. Packages are collections of additional functions written by the R community that extend what R can do. Install a package once, load it at the start of each session.\n\n# Install a package — only need to do this once\ninstall.packages(\"dplyr\")\n\n\n# Load a package — need to do this each session\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\ndplyr::glimpse(df)\n\nRows: 6\nColumns: 4\n$ age    &lt;dbl&gt; 12, 24, NA, 23, 65, 33\n$ gender &lt;chr&gt; \"M\", \"F\", \"F\", \"M\", \"M\", \"F\"\n$ occu   &lt;fct&gt; Unemp, Business, Student, Service, Business, Prof\n$ dob    &lt;date&gt; 1993-01-16, 1963-12-24, 1971-01-05, 1982-11-11, 1984-05-15, 199…\n\n\nAnalogy: Installing is like downloading an app. Loading is like opening it. In this workshop, the packages you need are listed at the top of each session file — you do not need to find or choose them yourself.\nKey packages used in this workshop:\n\n\n\nPackage\nPurpose\n\n\n\n\nggplot2\nGraphs and visualisation\n\n\ndplyr\nData manipulation\n\n\nreadxl, haven, rio\nImporting data\n\n\nheemod\nMarkov cohort models\n\n\nBCEA, dampack\nCost-effectiveness analysis\n\n\nflexsurv\nSurvival modelling\n\n\nshiny\nInteractive web applications",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#pipes",
+    "href": "courses/r_for_hta/index.html#pipes",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Pipes",
+    "text": "Pipes\nA pipe passes the output of one function directly into the next, letting you chain steps in a readable left-to-right sequence without creating intermediate objects. R has two pipe operators — |&gt; (built into R) and %&gt;% (from the tidyverse). They behave the same way in most situations.\n\ndf |&gt;\n  select(age, dob, occu) |&gt;\n  summarise(mean_age = mean(age, na.rm = TRUE))\n\n  mean_age\n1     31.4\n\n\nRead this as: take df, then select the age, dob, and occu columns, then calculate the mean age. select() picks columns, summarise() calculates summaries. The pipe replaces deeply nested function calls with a sequence that reads the way you think.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#importing-data",
+    "href": "courses/r_for_hta/index.html#importing-data",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Importing Data",
+    "text": "Importing Data\n\nUsing the GUI\nRStudio has a point-and-click import tool. Go to File → Import Dataset and choose your file type. RStudio generates the import code for you — a useful way to learn the syntax before writing it yourself.\n\n\n\nImporting with code\nOnce you know the syntax, code-based import is faster and fully reproducible:\n\n# CSV\ndata &lt;- read.csv(\"files/data.csv\")\n\n# Excel\nlibrary(readxl)\ndata &lt;- read_excel(\"files/data.xlsx\")\n\n# Stata and SPSS\nlibrary(haven)\ndata &lt;- read_sav(\"files/data.sav\")\ndata &lt;- read_dta(\"files/data.dta\")\n\nThe rio package provides a single import() function that detects the file format automatically — the simplest approach when you work with multiple file types:\n\nlibrary(rio)\ndata &lt;- rio::import(\"files/data.xlsx\")\ndata &lt;- rio::import(\"files/data.csv\")\ndata &lt;- rio::import(\"files/data.sav\")\ndata &lt;- rio::import(\"files/data.dta\")\n\n\n\n\n\n\n\nImportant\n\n\n\nAll import commands use relative file paths that only work when the .Rproj file has been opened first. A cannot open file error almost always means this step was skipped.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#loops",
+    "href": "courses/r_for_hta/index.html#loops",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Loops",
+    "text": "Loops\nA for loop repeats a block of code a fixed number of times — once for each value in a sequence. In HTA modelling, loops are used to run the model across time cycles and across thousands of PSA iterations.\n\nlibrary(rio)\n\nWarning: package 'rio' was built under R version 4.5.3\n\ndata &lt;- rio::import(\"files/data.csv\")\nlibrary(dplyr)\ndata &lt;- data |&gt; mutate(bmi = round(wt / ((ht / 100)^2), 1))\n\nfor (i in 1:nrow(data)) {\n  bmi &lt;- round(data$wt[i] / ((data$ht[i] / 100)^2), 2)\n  cat(\"BMI of Record No\", i, \"is\", bmi, \"\\n\")\n}\n\nBMI of Record No 1 is 21.63 \nBMI of Record No 2 is 20.62 \nBMI of Record No 3 is 23.7 \nBMI of Record No 4 is 15.62 \nBMI of Record No 5 is NA \nBMI of Record No 6 is 18.76 \nBMI of Record No 7 is 14.2 \nBMI of Record No 8 is 27.02 \nBMI of Record No 9 is 19.72 \nBMI of Record No 10 is 21.22 \nBMI of Record No 11 is 22.52 \nBMI of Record No 12 is 24.08 \nBMI of Record No 13 is 15.01 \nBMI of Record No 14 is 16.43 \nBMI of Record No 15 is 21.66 \nBMI of Record No 16 is 15.87 \nBMI of Record No 17 is NA \nBMI of Record No 18 is 17.63 \nBMI of Record No 19 is 15.78 \nBMI of Record No 20 is 17.21 \nBMI of Record No 21 is 16.44 \nBMI of Record No 22 is 20.54 \nBMI of Record No 23 is 18.32 \nBMI of Record No 24 is 21.71 \nBMI of Record No 25 is 13.78 \nBMI of Record No 26 is 20.72 \nBMI of Record No 27 is 29.63 \nBMI of Record No 28 is 16.34 \nBMI of Record No 29 is 20.77 \nBMI of Record No 30 is 17.79 \nBMI of Record No 31 is 18.06 \nBMI of Record No 32 is 20.62 \nBMI of Record No 33 is 22.58 \nBMI of Record No 34 is 19.58 \nBMI of Record No 35 is 26.12 \nBMI of Record No 36 is 18.31 \nBMI of Record No 37 is 29.66 \nBMI of Record No 38 is 18.63 \nBMI of Record No 39 is 22.35 \nBMI of Record No 40 is 20.96 \nBMI of Record No 41 is 17.44 \nBMI of Record No 42 is 14.61 \nBMI of Record No 43 is 18.25 \nBMI of Record No 44 is 19.17 \nBMI of Record No 45 is 18.45 \nBMI of Record No 46 is 23.62 \nBMI of Record No 47 is 29.97 \nBMI of Record No 48 is 17.41 \nBMI of Record No 49 is 18.63 \nBMI of Record No 50 is 24.44 \nBMI of Record No 51 is 17.74 \nBMI of Record No 52 is 16.76 \nBMI of Record No 53 is 19.69 \nBMI of Record No 54 is 16.57 \nBMI of Record No 55 is 15.15 \nBMI of Record No 56 is 27.96 \nBMI of Record No 57 is NA \nBMI of Record No 58 is 18.25 \nBMI of Record No 59 is 15.58 \nBMI of Record No 60 is 18.13 \nBMI of Record No 61 is 15.95 \nBMI of Record No 62 is 14.18 \nBMI of Record No 63 is 19.47 \nBMI of Record No 64 is 24.08 \nBMI of Record No 65 is 18.62 \nBMI of Record No 66 is 18.07 \nBMI of Record No 67 is 16.94 \nBMI of Record No 68 is 18.01 \nBMI of Record No 69 is 21.54 \nBMI of Record No 70 is 17.84 \nBMI of Record No 71 is 18.78 \nBMI of Record No 72 is 27.89 \nBMI of Record No 73 is NA \nBMI of Record No 74 is 16.23 \nBMI of Record No 75 is 20.93 \nBMI of Record No 76 is 18.83 \nBMI of Record No 77 is 16.45 \nBMI of Record No 78 is 21.38 \nBMI of Record No 79 is 26.78 \nBMI of Record No 80 is 15.64 \nBMI of Record No 81 is 15.88 \nBMI of Record No 82 is 16.44 \nBMI of Record No 83 is 21.5 \nBMI of Record No 84 is 23.77 \nBMI of Record No 85 is 26.23 \nBMI of Record No 86 is 22.52 \nBMI of Record No 87 is 15.85 \nBMI of Record No 88 is 17.37 \nBMI of Record No 89 is 28.52 \nBMI of Record No 90 is 19.71 \nBMI of Record No 91 is 31.39 \nBMI of Record No 92 is 15.45 \nBMI of Record No 93 is 12.11 \nBMI of Record No 94 is 21.8 \nBMI of Record No 95 is 24.86 \nBMI of Record No 96 is 18.99 \nBMI of Record No 97 is 24.38 \nBMI of Record No 98 is 15.84 \nBMI of Record No 99 is NA \nBMI of Record No 100 is 16.69 \nBMI of Record No 101 is 20.01 \nBMI of Record No 102 is 23.77 \nBMI of Record No 103 is 18.7 \nBMI of Record No 104 is 23.35 \nBMI of Record No 105 is 18.8 \nBMI of Record No 106 is 28.97 \nBMI of Record No 107 is 26.91 \nBMI of Record No 108 is 15.45 \nBMI of Record No 109 is 20.78 \nBMI of Record No 110 is 24.98 \nBMI of Record No 111 is 17.23 \nBMI of Record No 112 is 15.52 \nBMI of Record No 113 is 26.79 \nBMI of Record No 114 is 21.61 \nBMI of Record No 115 is 20.35 \nBMI of Record No 116 is 18.09 \nBMI of Record No 117 is 21.1 \nBMI of Record No 118 is 19.5 \nBMI of Record No 119 is 15.04 \nBMI of Record No 120 is 17.1 \nBMI of Record No 121 is 17 \nBMI of Record No 122 is 18.55 \nBMI of Record No 123 is 21.34 \nBMI of Record No 124 is 21.33 \nBMI of Record No 125 is 17.21 \nBMI of Record No 126 is 16.98 \nBMI of Record No 127 is 16.36 \nBMI of Record No 128 is NA \nBMI of Record No 129 is 27.63 \nBMI of Record No 130 is 24.23 \nBMI of Record No 131 is 17.74 \nBMI of Record No 132 is 21.28 \nBMI of Record No 133 is 18.87 \nBMI of Record No 134 is 19.58 \nBMI of Record No 135 is 28.63 \nBMI of Record No 136 is 23.96 \nBMI of Record No 137 is 28.41 \nBMI of Record No 138 is 23.86 \nBMI of Record No 139 is 27.67 \nBMI of Record No 140 is 16.28 \nBMI of Record No 141 is 21.83 \nBMI of Record No 142 is 15.47 \nBMI of Record No 143 is 26.42 \nBMI of Record No 144 is 22.58 \nBMI of Record No 145 is 16.15 \nBMI of Record No 146 is 20.54 \nBMI of Record No 147 is 25.49 \nBMI of Record No 148 is 16.52 \nBMI of Record No 149 is 22.95 \nBMI of Record No 150 is 18.08 \n\n\nWhen you see a for loop in the workshop code, you know: the model is repeating a calculation. You do not need to understand every line — just recognise that something is being done repeatedly, and that the values at the top of the loop control what is being repeated and how many times.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#conditional-logic",
+    "href": "courses/r_for_hta/index.html#conditional-logic",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Conditional Logic",
+    "text": "Conditional Logic\nAn if/else block runs different code depending on whether a condition is TRUE or FALSE. You will see this used in cost-effectiveness decisions — is the ICER below the willingness-to-pay threshold? — and in model checks.\n\nif (condition) {\n  # code to run if condition is TRUE\n} else {\n  # code to run if condition is FALSE\n}\n\nA simple example:\n\nvalue &lt;- 5000\n\nif (value &gt; 200) {\n  cat(\"High\")\n} else {\n  cat(\"Low\")\n}\n\nHigh",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#graphs",
+    "href": "courses/r_for_hta/index.html#graphs",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Graphs",
+    "text": "Graphs\nggplot2 is the standard package for data visualisation in R. It builds plots in layers — you start with the data, map variables to axes, then add geometric elements. The plot below uses the dataset imported in the Loops section.\n\nlibrary(ggplot2)\n\nggplot(data, aes(x = ht, y = wt, colour = bmi)) +\n  geom_point(size = 2) +\n  labs(x = \"Height\", y = \"Weight\", title = \"Height vs Weight\") +\n  theme_minimal()\n\nWarning: Removed 6 rows containing missing values or values outside the scale range\n(`geom_point()`).\n\n\n\n\n\nHeight vs Weight coloured by BMI\n\n\n\n\nWhen you see ggplot in the workshop code, you know: a chart is being created. The aes() part maps variables to visual properties, the geom_ function determines the chart type, and labs() sets the labels. Changing the data or the variables inside aes() changes the plot.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#three-things-to-remember",
+    "href": "courses/r_for_hta/index.html#three-things-to-remember",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Three Things to Remember",
+    "text": "Three Things to Remember\nAlmost nothing from this session needs to be memorised. Instead, keep these three things in mind throughout the workshop:\n\n\n\n\n\n\nNote1. Values are stored with &lt;-\n\n\n\nChange them by editing the number on the right. Every exercise in this workshop is essentially this action.\n\n\n\n\n\n\n\n\nNote2. Code runs top to bottom\n\n\n\nRun chunks in order. If you see an error about an object not being found, scroll up and run the chunks above first.\n\n\n\n\n\n\n\n\nNote3. Read the error message\n\n\n\nIt usually tells you exactly what went wrong — a missing package, a typo in a variable name, a file not found. Read it before asking for help.\n\n\nEverything else you can look up as needed — or ask an AI tool, as we will discuss in Session 7.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#try-it-yourself",
+    "href": "courses/r_for_hta/index.html#try-it-yourself",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Try It Yourself",
+    "text": "Try It Yourself\nBefore moving to Session 3, modify the values below and re-run the chunk. Change the costs and QALYs to see how the ICER and the cost-effectiveness decision change.\n\n# YOUR TASK: Change these values and re-run\ncost_A &lt;- 3000   # Cost of intervention A in ₹\ncost_B &lt;- 1500   # Cost of intervention B in ₹\nqaly_A &lt;- 0.82   # QALYs gained with A\nqaly_B &lt;- 0.75   # QALYs gained with B\n\n# ── Do not modify below this line ─────────────────────────────────────────────\n\nicer &lt;- (cost_A - cost_B) / (qaly_A - qaly_B)\ncat(\"ICER = ₹\", round(icer, 0), \"per QALY gained\\n\")\n\nICER = ₹ 21429 per QALY gained\n\nwtp &lt;- 100000\nif (icer &lt; wtp) {\n  cat(\"→ Cost-effective at WTP = ₹\", format(wtp, big.mark = \",\", scientific = FALSE), \"\\n\")\n} else {\n  cat(\"→ NOT cost-effective at WTP = ₹\", format(wtp, big.mark = \",\", scientific = FALSE), \"\\n\")\n}\n\n→ Cost-effective at WTP = ₹ 100,000 \n\n\nIf you ran this and changed the result — you are ready for the rest of the workshop.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#quick-reference",
+    "href": "courses/r_for_hta/index.html#quick-reference",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Quick Reference",
+    "text": "Quick Reference\n\n\n\nConcept\nSyntax\nExample\n\n\n\n\nAssign a value\nname &lt;- value\ncost &lt;- 5000\n\n\nNamed vector\nc(name = value)\nc(A = 5000, B = 3000)\n\n\nIndex a vector\nvec[n]\nvec[5]\n\n\nMatrix multiply\n%*%\ntrace %*% tm\n\n\nAccess a column\ndf$col\ndf$age\n\n\nFunction syntax\nfn(arg = val)\nmean(x, na.rm = TRUE)\n\n\nPipe\n\\|&gt;\ndf \\|&gt; select(age)\n\n\nIf / else\nif (cond) {} else {}\nif (icer &lt; wtp) {...}\n\n\nGet help\n?function\n?mean\n\n\nComment\n#\n# this is a note",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/index.html#further-reading",
+    "href": "courses/r_for_hta/index.html#further-reading",
+    "title": "Introduction: R for Health Technology Assessment (Basics)",
+    "section": "Further Reading",
+    "text": "Further Reading\n\nBaio, G. (2012). Bayesian Methods in Health Economics. CRC Press.\nBriggs, A., Sculpher, M., & Claxton, K. (2006). Decision Modelling for Health Economic Evaluation. Oxford University Press.\nR-HTA Consortium: r-hta.org",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "courses/HTA.html",
+    "href": "courses/HTA.html",
+    "title": "Health Technology Assessment",
+    "section": "",
+    "text": "This course provides an overview of Health Technology Assessment and its role in evidence-informed healthcare decision-making."
+  },
+  {
+    "objectID": "courses/HTA.html#course-overview",
+    "href": "courses/HTA.html#course-overview",
+    "title": "Health Technology Assessment",
+    "section": "",
+    "text": "This course provides an overview of Health Technology Assessment and its role in evidence-informed healthcare decision-making."
+  },
+  {
+    "objectID": "courses/HTA.html#topics-covered",
+    "href": "courses/HTA.html#topics-covered",
+    "title": "Health Technology Assessment",
+    "section": "Topics Covered",
+    "text": "Topics Covered\n\nIntroduction to HTA\nClinical effectiveness\nSystematic review and meta-analysis\nCost-effectiveness analysis\nBudget impact analysis\nHTA reporting and policy translation"
+  },
+  {
+    "objectID": "courses/HTA.html#target-audience",
+    "href": "courses/HTA.html#target-audience",
+    "title": "Health Technology Assessment",
+    "section": "Target Audience",
+    "text": "Target Audience\nResearchers, policymakers, healthcare professionals, and postgraduate students."
+  },
+  {
+    "objectID": "courses/HTA.html#duration",
+    "href": "courses/HTA.html#duration",
+    "title": "Health Technology Assessment",
+    "section": "Duration",
+    "text": "Duration\n5 days"
+  },
+  {
+    "objectID": "courses/HTA.html#mode",
+    "href": "courses/HTA.html#mode",
+    "title": "Health Technology Assessment",
+    "section": "Mode",
+    "text": "Mode\nOnline / Offline / Hybrid"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "courses/health_economics.html",
+    "href": "courses/health_economics.html",
+    "title": "Health Economics",
+    "section": "",
+    "text": "This course introduces students to the principles of health economics and its application in healthcare decision-making."
+  },
+  {
+    "objectID": "courses/health_economics.html#course-overview",
+    "href": "courses/health_economics.html#course-overview",
+    "title": "Health Economics",
+    "section": "",
+    "text": "This course introduces students to the principles of health economics and its application in healthcare decision-making."
+  },
+  {
+    "objectID": "courses/health_economics.html#topics-covered",
+    "href": "courses/health_economics.html#topics-covered",
+    "title": "Health Economics",
+    "section": "Topics Covered",
+    "text": "Topics Covered\n\nIntroduction to health economics\nDemand and supply in healthcare\nCosting in healthcare\nCost-effectiveness analysis\nCost-utility analysis\nBudget impact analysis"
+  },
+  {
+    "objectID": "courses/health_economics.html#target-audience",
+    "href": "courses/health_economics.html#target-audience",
+    "title": "Health Economics",
+    "section": "Target Audience",
+    "text": "Target Audience\nThis course is suitable for public health students, researchers, healthcare professionals, and policymakers."
+  },
+  {
+    "objectID": "courses/health_economics.html#duration",
+    "href": "courses/health_economics.html#duration",
+    "title": "Health Economics",
+    "section": "Duration",
+    "text": "Duration\n6 weeks"
+  },
+  {
+    "objectID": "courses/health_economics.html#mode",
+    "href": "courses/health_economics.html#mode",
+    "title": "Health Economics",
+    "section": "Mode",
+    "text": "Mode\nOnline / Offline"
+  },
+  {
+    "objectID": "courses/r_for_hta/session1.html",
+    "href": "courses/r_for_hta/session1.html",
+    "title": "Dr Junaid KP",
+    "section": "",
+    "text": "getwd () # Decision Tree Modelling in R",
+    "crumbs": [
+      "Decision Tree Modelling"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/session1.html#the-clinical-question",
+    "href": "courses/r_for_hta/session1.html#the-clinical-question",
+    "title": "Decision Tree Modelling in R",
+    "section": "The Clinical Question",
+    "text": "The Clinical Question\nGestational Diabetes Mellitus (GDM) affects approximately 10–14% of pregnancies in India — substantially higher than Western countries. Undetected GDM increases risks of macrosomia, birth injuries, neonatal hypoglycaemia, pre-eclampsia, and future type 2 diabetes in the mother.\nThe question for HTA is: Should India implement universal screening for GDM using a fasting 75g OGTT, or is risk-based screening (screening only high-risk women) more cost-effective?\nThis is a classic diagnostic decision tree problem — the kind of analysis you might currently do in Excel or TreeAge. We will build it step by step in R.",
+    "crumbs": [
+      "Decision Tree Modelling"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/session1.html#the-decision-problem",
+    "href": "courses/r_for_hta/session1.html#the-decision-problem",
+    "title": "Decision Tree Modelling in R",
+    "section": "The Decision Problem",
+    "text": "The Decision Problem\nWe compare three strategies:\n\nUniversal screening: All pregnant women receive a fasting 75g OGTT at 24–28 weeks (IADPSG criteria)\nRisk-based screening: Only women with risk factors (age &gt;25, BMI &gt;25, family history of diabetes, previous GDM) receive OGTT\nNo formal screening: GDM detected only when symptomatic (status quo in many rural settings)",
+    "crumbs": [
+      "Decision Tree Modelling"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/session1.html#model-parameters",
+    "href": "courses/r_for_hta/session1.html#model-parameters",
+    "title": "Decision Tree Modelling in R",
+    "section": "Model Parameters",
+    "text": "Model Parameters\nAll parameters are sourced from Indian studies where available. Let us define them in R:\n\n# ============================================================\n# MODEL PARAMETERS — Gestational Diabetes Screening in India\n# ============================================================\n\n# --- Prevalence ---\n# Source: Systematic review, Behboudi-Gandevani et al. 2019;\n#         National meta-analysis, Pujitha et al. 2024 (BMC Public Health)\n# Indian GDM prevalence ranges 10-14.3%; we use 12% as base case\nprev_gdm &lt;- 0.12\n\n# --- Population ---\n# We model a cohort of 10,000 pregnant women\nn_cohort &lt;- 10000\n\n# --- Risk-based screening coverage ---\n# Proportion of women classified as \"high risk\" and offered screening\n# Source: FOGSI guidelines; approximately 55-65% of Indian pregnant women\n#         have at least one risk factor\nprop_high_risk &lt;- 0.60\n\n# GDM prevalence among high-risk vs low-risk women\n# Source: Sreelakshmi et al. 2015 (IJRCOG)\nprev_gdm_high_risk &lt;- 0.18\nprev_gdm_low_risk  &lt;- 0.03\n\n# --- Test Accuracy: Fasting 75g OGTT (IADPSG criteria) ---\n# Source: Defined as the reference standard; near-perfect when properly\n#         conducted. We use realistic performance accounting for\n#         pre-analytical errors in field conditions.\n# Source: Seshiah et al. 2008; Mohan et al. 2014\nsens_ogtt &lt;- 0.90   # Sensitivity\nspec_ogtt &lt;- 0.85   # Specificity\n\n# --- Screening Costs (₹) ---\n# Source: Estimated from public hospital rates, NHM guidelines\ncost_ogtt &lt;- 250            # Cost of fasting 75g OGTT per woman\ncost_risk_assessment &lt;- 50  # Cost of risk factor assessment per woman\n\n# --- Treatment Cost if GDM Detected (₹) ---\n# Includes dietary counselling, glucose monitoring, insulin if needed\n# Source: Estimated from Indian tertiary hospital data\ncost_gdm_treatment &lt;- 8000\n\n# --- Outcome Probabilities ---\n# Probability of adverse outcome (composite: macrosomia, birth injury,\n# neonatal ICU admission, pre-eclampsia) if GDM is:\n# Source: HAPO study (international); Indian data from Balaji et al. 2011\np_adverse_gdm_treated   &lt;- 0.10  # GDM detected and treated\np_adverse_gdm_untreated &lt;- 0.35  # GDM present but undetected\np_adverse_no_gdm        &lt;- 0.05  # No GDM (background risk)\n\n# --- Costs of Adverse Outcomes (₹) ---\n# Source: Estimated from Indian NICU costs, C-section rates\ncost_adverse &lt;- 45000   # Average cost of managing adverse outcome\ncost_no_adverse &lt;- 5000 # Average cost of normal delivery\n\n# --- Utility Weights (QALYs) ---\n# Short-term utility over pregnancy and postpartum period\n# Source: Moss et al. 2007 (international); adapted for Indian context\nutility_adverse   &lt;- 0.65  # QALY weight if adverse outcome\nutility_no_adverse &lt;- 0.90 # QALY weight if no adverse outcome\nutility_gdm_treated &lt;- 0.82 # QALY weight for managed GDM (reduced anxiety, monitoring burden)\n\n\n\n\n\n\n\nNoteA Note on Data Sources\n\n\n\nWhere Indian-specific utility data was not available, we have adapted values from international studies with appropriate acknowledgement. In your own HTA work, you would ideally conduct a local utility study or use regionally validated EQ-5D values. The parameter values here are illustrative and should be updated with the best available evidence for a formal HTA submission.",
+    "crumbs": [
+      "Decision Tree Modelling"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/session1.html#building-the-decision-tree",
+    "href": "courses/r_for_hta/session1.html#building-the-decision-tree",
+    "title": "Decision Tree Modelling in R",
+    "section": "Building the Decision Tree",
+    "text": "Building the Decision Tree\n\nlibrary(DiagrammeR)\n\ngrViz(\"\ndigraph gdm_tree {\n  graph [rankdir=LR, bgcolor='transparent', fontname='Helvetica', nodesep=0.5]\n  node [fontname='Helvetica', fontsize=10]\n  D [label='Screening\\nStrategy', shape=box, style='filled', fillcolor='#4e79a7', fontcolor='white', width=1.2]\n  \n  # Strategy nodes\n  S1 [label='Universal\\n Screening\\n(All women get OGTT)', shape=box, style='filled,rounded', fillcolor='#59a14f', fontcolor='white']\n  S2 [label='Risk-Based\\n Screening\\n(High-risk get OGTT)', shape=box, style='filled,rounded', fillcolor='#f28e2b', fontcolor='white']\n  S3 [label='No Formal\\n Screening\\n(Clinical detection only)', shape=box, style='filled,rounded', fillcolor='#e15759', fontcolor='white']\n\n  # Chance nodes for Universal\n  C1 [label='GDM+\\n(prev=12%)', shape=circle, style=filled, fillcolor='#d4e6f1', width=0.8, fontsize=9]\n  C2 [label='GDM-\\n(88%)', shape=circle, style=filled, fillcolor='#d5f5e3', width=0.8, fontsize=9]\n  \n  # Test results\n  TP [label='Test +\\n(Sens=90%)\\nTreat', shape=box, style='filled,rounded', fillcolor='#aed6f1', fontsize=9]\n  FN [label='Test -\\n(10%)\\n Missed', shape=box, style='filled,rounded', fillcolor='#f5b7b1', fontsize=9]\n  FP [label='Test +\\n(1-Spec=15%)\\n Unnec. treat', shape=box, style='filled,rounded', fillcolor='#fdebd0', fontsize=9]\n  TN [label='Test -\\n(Spec=85%)\\n Correctly cleared', shape=box, style='filled,rounded', fillcolor='#d5f5e3', fontsize=9]\n  \n  D -&gt; S1\n  D -&gt; S2\n  D -&gt; S3\n\n  S1 -&gt; C1\n  S1 -&gt; C2\n  \n  C1 -&gt; TP\n  C1 -&gt; FN\n  C2 -&gt; FP\n  C2 -&gt; TN}\")\n\n\n\n\n\n\n\nFigure 1: Decision tree structure for GDM screening strategies\n\n\n\n\n\nStrategy 1: Universal Screening\nEvery woman gets an OGTT. Those who test positive receive treatment.\n\n# --- Universal Screening Strategy ---\n\n# Total number screened\nn_screened_universal &lt;- n_cohort\n\n# True disease status\nn_gdm_true &lt;- n_cohort * prev_gdm        # Women who truly have GDM\nn_no_gdm   &lt;- n_cohort * (1 - prev_gdm)  # Women without GDM\n\n# Test results\ntrue_positive  &lt;- n_gdm_true * sens_ogtt             # GDM detected correctly\nfalse_negative &lt;- n_gdm_true * (1 - sens_ogtt)       # GDM missed\nfalse_positive &lt;- n_no_gdm * (1 - spec_ogtt)         # Wrongly flagged\ntrue_negative  &lt;- n_no_gdm * spec_ogtt               # Correctly cleared\n\ncat(\"=== Universal Screening Results ===\\n\")\n\n=== Universal Screening Results ===\n\ncat(\"Total screened:\", n_screened_universal, \"\\n\")\n\nTotal screened: 10000 \n\ncat(\"True positives (GDM detected):\", true_positive, \"\\n\")\n\nTrue positives (GDM detected): 1080 \n\ncat(\"False negatives (GDM missed):\", false_negative, \"\\n\")\n\nFalse negatives (GDM missed): 120 \n\ncat(\"False positives (unnecessary treatment):\", false_positive, \"\\n\")\n\nFalse positives (unnecessary treatment): 1320 \n\ncat(\"True negatives (correctly cleared):\", true_negative, \"\\n\")\n\nTrue negatives (correctly cleared): 7480 \n\n\n\nlibrary(ggplot2)\n\ntest_results &lt;- data.frame(\n  Category = c(\"True Positive\\n(GDM detected)\", \"False Negative\\n(GDM missed)\",\n                \"False Positive\\n(Wrongly flagged)\", \"True Negative\\n(Correctly cleared)\"),\n  Count = c(true_positive, false_negative, false_positive, true_negative),\n  Type = c(\"Correct\", \"Error\", \"Error\", \"Correct\")\n)\n\nggplot(test_results, aes(x = reorder(Category, -Count), y = Count, fill = Type)) +\n  geom_col() +\n  geom_text(aes(label = round(Count)), vjust = -0.5, size = 3.5) +\n  scale_fill_manual(values = c(\"Correct\" = \"#59a14f\", \"Error\" = \"#e15759\")) +\n  labs(x = \"\", y = \"Number of Women\",\n       title = \"Screening Test Results: Universal Strategy\",\n       subtitle = paste0(\"Cohort of \", format(n_cohort, big.mark=\",\"), \" pregnant women\")) +\n  theme_minimal() +\n  theme(legend.position = \"bottom\", axis.text.x = element_text(size = 9))\n\n\n\n\n\n\n\nFigure 2: Distribution of screening test results — Universal Screening\n\n\n\n\n\nNow let us calculate costs and outcomes:\n\n# --- Costs: Universal Screening ---\n\n# Screening cost: everyone gets OGTT\ncost_screening_universal &lt;- n_cohort * cost_ogtt\n\n# Treatment costs: true positives + false positives receive treatment\ncost_treatment_universal &lt;- (true_positive + false_positive) * cost_gdm_treatment\n\n# Adverse outcome costs\n# True positives: GDM treated → lower adverse probability\nadverse_tp &lt;- true_positive * p_adverse_gdm_treated\nno_adverse_tp &lt;- true_positive * (1 - p_adverse_gdm_treated)\n\n# False negatives: GDM untreated → higher adverse probability\nadverse_fn &lt;- false_negative * p_adverse_gdm_untreated\nno_adverse_fn &lt;- false_negative * (1 - p_adverse_gdm_untreated)\n\n# False positives: no GDM but treated → background adverse risk\nadverse_fp &lt;- false_positive * p_adverse_no_gdm\nno_adverse_fp &lt;- false_positive * (1 - p_adverse_no_gdm)\n\n# True negatives: no GDM, correctly cleared → background risk\nadverse_tn &lt;- true_negative * p_adverse_no_gdm\nno_adverse_tn &lt;- true_negative * (1 - p_adverse_no_gdm)\n\n# Total adverse outcomes and costs\ntotal_adverse_universal &lt;- adverse_tp + adverse_fn + adverse_fp + adverse_tn\ntotal_no_adverse_universal &lt;- no_adverse_tp + no_adverse_fn + no_adverse_fp + no_adverse_tn\n\ncost_outcomes_universal &lt;- total_adverse_universal * cost_adverse +\n                           total_no_adverse_universal * cost_no_adverse\n\n# Total cost\ntotal_cost_universal &lt;- cost_screening_universal + cost_treatment_universal +\n                        cost_outcomes_universal\n\ncat(\"=== Universal Screening: Cost Summary ===\\n\")\n\n=== Universal Screening: Cost Summary ===\n\ncat(\"Screening cost: ₹\", format(cost_screening_universal, big.mark = \",\"), \"\\n\")\n\nScreening cost: ₹ 2,500,000 \n\ncat(\"Treatment cost: ₹\", format(cost_treatment_universal, big.mark = \",\"), \"\\n\")\n\nTreatment cost: ₹ 19,200,000 \n\ncat(\"Outcome costs: ₹\", format(round(cost_outcomes_universal), big.mark = \",\"), \"\\n\")\n\nOutcome costs: ₹ 73,600,000 \n\ncat(\"TOTAL COST: ₹\", format(round(total_cost_universal), big.mark = \",\"), \"\\n\")\n\nTOTAL COST: ₹ 95,300,000 \n\ncat(\"\\nAdverse outcomes:\", round(total_adverse_universal), \"out of\", n_cohort, \"\\n\")\n\n\nAdverse outcomes: 590 out of 10000 \n\n\n\n# --- QALYs: Universal Screening ---\n\n# QALYs by group\nqaly_tp &lt;- true_positive * ((1 - p_adverse_gdm_treated) * utility_gdm_treated +\n           p_adverse_gdm_treated * utility_adverse)\nqaly_fn &lt;- false_negative * ((1 - p_adverse_gdm_untreated) * utility_no_adverse +\n           p_adverse_gdm_untreated * utility_adverse)\nqaly_fp &lt;- false_positive * ((1 - p_adverse_no_gdm) * utility_gdm_treated +\n           p_adverse_no_gdm * utility_adverse)\nqaly_tn &lt;- true_negative * ((1 - p_adverse_no_gdm) * utility_no_adverse +\n           p_adverse_no_gdm * utility_adverse)\n\ntotal_qaly_universal &lt;- qaly_tp + qaly_fn + qaly_fp + qaly_tn\n\ncat(\"Total QALYs (Universal Screening):\", round(total_qaly_universal, 1), \"\\n\")\n\nTotal QALYs (Universal Screening): 8674.4 \n\ncat(\"Mean QALY per woman:\", round(total_qaly_universal / n_cohort, 4), \"\\n\")\n\nMean QALY per woman: 0.8674 \n\n\n\n\nStrategy 2: Risk-Based Screening\nOnly high-risk women are offered OGTT. Low-risk women are not screened.\n\n# --- Risk-Based Screening Strategy ---\n\nn_high_risk &lt;- n_cohort * prop_high_risk\nn_low_risk  &lt;- n_cohort * (1 - prop_high_risk)\n\n# Among high-risk women\nn_gdm_hr    &lt;- n_high_risk * prev_gdm_high_risk\nn_no_gdm_hr &lt;- n_high_risk * (1 - prev_gdm_high_risk)\n\ntp_hr &lt;- n_gdm_hr * sens_ogtt\nfn_hr &lt;- n_gdm_hr * (1 - sens_ogtt)\nfp_hr &lt;- n_no_gdm_hr * (1 - spec_ogtt)\ntn_hr &lt;- n_no_gdm_hr * spec_ogtt\n\n# Among low-risk women (NOT screened — GDM undetected)\nn_gdm_lr    &lt;- n_low_risk * prev_gdm_low_risk\nn_no_gdm_lr &lt;- n_low_risk * (1 - prev_gdm_low_risk)\n\ncat(\"=== Risk-Based Screening Results ===\\n\")\n\n=== Risk-Based Screening Results ===\n\ncat(\"High-risk women screened:\", n_high_risk, \"\\n\")\n\nHigh-risk women screened: 6000 \n\ncat(\"Low-risk women NOT screened:\", n_low_risk, \"\\n\")\n\nLow-risk women NOT screened: 4000 \n\ncat(\"GDM detected (high-risk true positives):\", tp_hr, \"\\n\")\n\nGDM detected (high-risk true positives): 972 \n\ncat(\"GDM missed in high-risk (false negatives):\", fn_hr, \"\\n\")\n\nGDM missed in high-risk (false negatives): 108 \n\ncat(\"GDM missed in low-risk (never screened):\", n_gdm_lr, \"\\n\")\n\nGDM missed in low-risk (never screened): 120 \n\ncat(\"Total GDM missed:\", fn_hr + n_gdm_lr, \"\\n\")\n\nTotal GDM missed: 228 \n\n\n\n# --- Costs: Risk-Based Screening ---\n\n# Screening cost: risk assessment for all, OGTT only for high-risk\ncost_screening_risk &lt;- n_cohort * cost_risk_assessment + n_high_risk * cost_ogtt\n\n# Treatment cost: only high-risk true positives + false positives\ncost_treatment_risk &lt;- (tp_hr + fp_hr) * cost_gdm_treatment\n\n# Adverse outcomes\n# High-risk: detected GDM (treated)\nadverse_tp_hr &lt;- tp_hr * p_adverse_gdm_treated\n# High-risk: missed GDM (untreated)\nadverse_fn_hr &lt;- fn_hr * p_adverse_gdm_untreated\n# High-risk: false positives (background risk)\nadverse_fp_hr &lt;- fp_hr * p_adverse_no_gdm\n# High-risk: true negatives\nadverse_tn_hr &lt;- tn_hr * p_adverse_no_gdm\n# Low-risk: undetected GDM\nadverse_gdm_lr &lt;- n_gdm_lr * p_adverse_gdm_untreated\n# Low-risk: no GDM\nadverse_no_gdm_lr &lt;- n_no_gdm_lr * p_adverse_no_gdm\n\ntotal_adverse_risk &lt;- adverse_tp_hr + adverse_fn_hr + adverse_fp_hr +\n                      adverse_tn_hr + adverse_gdm_lr + adverse_no_gdm_lr\n\ntotal_no_adverse_risk &lt;- n_cohort - total_adverse_risk  # Simplified\n\ncost_outcomes_risk &lt;- total_adverse_risk * cost_adverse +\n                      total_no_adverse_risk * cost_no_adverse\n\ntotal_cost_risk &lt;- cost_screening_risk + cost_treatment_risk + cost_outcomes_risk\n\ncat(\"=== Risk-Based Screening: Cost Summary ===\\n\")\n\n=== Risk-Based Screening: Cost Summary ===\n\ncat(\"Screening cost: ₹\", format(cost_screening_risk, big.mark = \",\"), \"\\n\")\n\nScreening cost: ₹ 2e+06 \n\ncat(\"Treatment cost: ₹\", format(round(cost_treatment_risk), big.mark = \",\"), \"\\n\")\n\nTreatment cost: ₹ 13,680,000 \n\ncat(\"Outcome costs: ₹\", format(round(cost_outcomes_risk), big.mark = \",\"), \"\\n\")\n\nOutcome costs: ₹ 74,680,000 \n\ncat(\"TOTAL COST: ₹\", format(round(total_cost_risk), big.mark = \",\"), \"\\n\")\n\nTOTAL COST: ₹ 90,360,000 \n\ncat(\"\\nAdverse outcomes:\", round(total_adverse_risk), \"out of\", n_cohort, \"\\n\")\n\n\nAdverse outcomes: 617 out of 10000 \n\n\n\n# --- QALYs: Risk-Based Screening ---\n\nqaly_tp_hr &lt;- tp_hr * ((1 - p_adverse_gdm_treated) * utility_gdm_treated +\n              p_adverse_gdm_treated * utility_adverse)\nqaly_fn_hr &lt;- fn_hr * ((1 - p_adverse_gdm_untreated) * utility_no_adverse +\n              p_adverse_gdm_untreated * utility_adverse)\nqaly_fp_hr &lt;- fp_hr * ((1 - p_adverse_no_gdm) * utility_gdm_treated +\n              p_adverse_no_gdm * utility_adverse)\nqaly_tn_hr &lt;- tn_hr * ((1 - p_adverse_no_gdm) * utility_no_adverse +\n              p_adverse_no_gdm * utility_adverse)\nqaly_gdm_lr &lt;- n_gdm_lr * ((1 - p_adverse_gdm_untreated) * utility_no_adverse +\n               p_adverse_gdm_untreated * utility_adverse)\nqaly_no_gdm_lr &lt;- n_no_gdm_lr * ((1 - p_adverse_no_gdm) * utility_no_adverse +\n                  p_adverse_no_gdm * utility_adverse)\n\ntotal_qaly_risk &lt;- qaly_tp_hr + qaly_fn_hr + qaly_fp_hr +\n                   qaly_tn_hr + qaly_gdm_lr + qaly_no_gdm_lr\n\ncat(\"Total QALYs (Risk-Based Screening):\", round(total_qaly_risk, 1), \"\\n\")\n\nTotal QALYs (Risk-Based Screening): 8719.7 \n\ncat(\"Mean QALY per woman:\", round(total_qaly_risk / n_cohort, 4), \"\\n\")\n\nMean QALY per woman: 0.872 \n\n\n\n\nStrategy 3: No Formal Screening\nGDM is detected only when symptomatic (estimated detection rate ~25% based on clinical presentation alone).\n\n# --- No Screening Strategy ---\n\n# Detection rate through clinical presentation alone\ndetection_rate_clinical &lt;- 0.25\n\nn_gdm_total &lt;- n_cohort * prev_gdm\nn_no_gdm_total &lt;- n_cohort * (1 - prev_gdm)\n\nn_gdm_detected_clinical &lt;- n_gdm_total * detection_rate_clinical\nn_gdm_undetected &lt;- n_gdm_total * (1 - detection_rate_clinical)\n\n# Costs: no screening cost, treatment only for clinically detected\ncost_screening_none &lt;- 0\ncost_treatment_none &lt;- n_gdm_detected_clinical * cost_gdm_treatment\n\n# Adverse outcomes\nadverse_detected &lt;- n_gdm_detected_clinical * p_adverse_gdm_treated\nadverse_undetected &lt;- n_gdm_undetected * p_adverse_gdm_untreated\nadverse_no_gdm_none &lt;- n_no_gdm_total * p_adverse_no_gdm\n\ntotal_adverse_none &lt;- adverse_detected + adverse_undetected + adverse_no_gdm_none\ntotal_no_adverse_none &lt;- n_cohort - total_adverse_none\n\ncost_outcomes_none &lt;- total_adverse_none * cost_adverse +\n                      total_no_adverse_none * cost_no_adverse\n\ntotal_cost_none &lt;- cost_screening_none + cost_treatment_none + cost_outcomes_none\n\n# QALYs\nqaly_detected &lt;- n_gdm_detected_clinical * ((1 - p_adverse_gdm_treated) * utility_gdm_treated +\n                 p_adverse_gdm_treated * utility_adverse)\nqaly_undetected &lt;- n_gdm_undetected * ((1 - p_adverse_gdm_untreated) * utility_no_adverse +\n                   p_adverse_gdm_untreated * utility_adverse)\nqaly_no_gdm_none &lt;- n_no_gdm_total * ((1 - p_adverse_no_gdm) * utility_no_adverse +\n                    p_adverse_no_gdm * utility_adverse)\n\ntotal_qaly_none &lt;- qaly_detected + qaly_undetected + qaly_no_gdm_none\n\ncat(\"=== No Screening: Results ===\\n\")\n\n=== No Screening: Results ===\n\ncat(\"GDM detected clinically:\", n_gdm_detected_clinical, \"out of\", n_gdm_total, \"\\n\")\n\nGDM detected clinically: 300 out of 1200 \n\ncat(\"TOTAL COST: ₹\", format(round(total_cost_none), big.mark = \",\"), \"\\n\")\n\nTOTAL COST: ₹ 83,800,000 \n\ncat(\"Adverse outcomes:\", round(total_adverse_none), \"out of\", n_cohort, \"\\n\")\n\nAdverse outcomes: 785 out of 10000 \n\ncat(\"Total QALYs:\", round(total_qaly_none, 1), \"\\n\")\n\nTotal QALYs: 8782.1",
+    "crumbs": [
+      "Decision Tree Modelling"
+    ]
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "Explore my courses and training programmes designed for students, researchers, and professionals in public health, health economics, and data analysis.\n\n\n\n\n\nHealth Economics\nAn introductory course covering health economic concepts, costing, economic evaluation, and decision-making in healthcare.\n\nHealth Economics Public Health Economic Evaluation\n\nView course details →\n\n\n\n\n\nR for Health Technology Assessment\nA practical hands-on workshop on R programming, data cleaning, visualization, and statistical analysis for public health research.\n\nR Programming Economic Evaluation Decision Tree Markov Model Sensitivity Analysis\n\nView course details →\n\n\n\n\n\nHealth Technology Assessment\nA course on HTA concepts, evidence synthesis, economic evaluation, and policy translation for evidence-informed decision-making.\n\nHealth Technology Assessment Economic Evaluation\n\nView course details →"
+  },
+  {
+    "objectID": "courses/r_for_hta/session1.html#comparing-the-three-strategies",
+    "href": "courses/r_for_hta/session1.html#comparing-the-three-strategies",
+    "title": "Decision Tree Modelling in R",
+    "section": "Comparing the Three Strategies",
+    "text": "Comparing the Three Strategies\n\n# --- Summary Comparison ---\nlibrary(knitr)\n\nresults &lt;- data.frame(\n  Strategy = c(\"Universal Screening\", \"Risk-Based Screening\", \"No Screening\"),\n  Total_Cost = c(total_cost_universal, total_cost_risk, total_cost_none),\n  Total_QALYs = c(total_qaly_universal, total_qaly_risk, total_qaly_none),\n  Adverse_Outcomes = c(total_adverse_universal, total_adverse_risk, total_adverse_none)\n)\n\n# Format for display\nresults$Cost_per_Woman &lt;- results$Total_Cost / n_cohort\nresults$QALY_per_Woman &lt;- results$Total_QALYs / n_cohort\nresults$Adverse_Rate &lt;- paste0(round(results$Adverse_Outcomes / n_cohort * 100, 1), \"%\")\n\nresults$Total_Cost &lt;- paste0(\"₹\", format(round(results$Total_Cost), big.mark = \",\"))\n\nkable(results[, c(\"Strategy\", \"Total_Cost\", \"QALY_per_Woman\", \"Adverse_Rate\")],\n      col.names = c(\"Strategy\", \"Total Cost (cohort)\", \"QALY per Woman\", \"Adverse Outcome Rate\"),\n      digits = 4,\n      caption = \"Comparison of GDM Screening Strategies (cohort of 10,000 women)\")\n\n\nComparison of GDM Screening Strategies (cohort of 10,000 women)\n\n\n\n\n\n\n\n\nStrategy\nTotal Cost (cohort)\nQALY per Woman\nAdverse Outcome Rate\n\n\n\n\nUniversal Screening\n₹95,300,000\n0.8674\n5.9%\n\n\nRisk-Based Screening\n₹90,360,000\n0.8720\n6.2%\n\n\nNo Screening\n₹83,800,000\n0.8782\n7.8%\n\n\n\n\n\n\nadverse_data &lt;- data.frame(\n  Strategy = c(\"Universal\\nScreening\", \"Risk-Based\\nScreening\", \"No\\nScreening\"),\n  Adverse_Rate = c(total_adverse_universal / n_cohort * 100,\n                   total_adverse_risk / n_cohort * 100,\n                   total_adverse_none / n_cohort * 100),\n  Cost_Per_Woman = c(total_cost_universal / n_cohort,\n                     total_cost_risk / n_cohort,\n                     total_cost_none / n_cohort)\n)\n\nlibrary(gridExtra)\n\np1 &lt;- ggplot(adverse_data, aes(x = Strategy, y = Adverse_Rate, fill = Strategy)) +\n  geom_col(show.legend = FALSE) +\n  geom_text(aes(label = paste0(round(Adverse_Rate, 1), \"%\")), vjust = -0.5, size = 3.5) +\n  scale_fill_manual(values = c(\"#59a14f\", \"#f28e2b\", \"#e15759\")) +\n  labs(x = \"\", y = \"Adverse Outcome Rate (%)\",\n       title = \"Adverse Outcomes\") +\n  theme_minimal()\n\np2 &lt;- ggplot(adverse_data, aes(x = Strategy, y = Cost_Per_Woman, fill = Strategy)) +\n  geom_col(show.legend = FALSE) +\n  geom_text(aes(label = paste0(\"₹\", format(round(Cost_Per_Woman), big.mark=\",\"))), vjust = -0.5, size = 3) +\n  scale_fill_manual(values = c(\"#59a14f\", \"#f28e2b\", \"#e15759\")) +\n  labs(x = \"\", y = \"Cost per Woman (₹)\",\n       title = \"Total Cost per Woman\") +\n  theme_minimal()\n\ngrid.arrange(p1, p2, ncol = 2)\n\n\n\n\n\n\n\nFigure 3: Adverse outcome rates and costs across screening strategies",
+    "crumbs": [
+      "Decision Tree Modelling"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/session1.html#icer-and-net-monetary-benefit",
+    "href": "courses/r_for_hta/session1.html#icer-and-net-monetary-benefit",
+    "title": "Decision Tree Modelling in R",
+    "section": "ICER and Net Monetary Benefit",
+    "text": "ICER and Net Monetary Benefit\n\nlibrary(knitr)\n\n# --- ICER Calculations ---\n# Using no screening as the reference comparator\n\n# Risk-based vs No screening\ninc_cost_risk_vs_none &lt;- total_cost_risk - total_cost_none\ninc_qaly_risk_vs_none &lt;- total_qaly_risk - total_qaly_none\nicer_risk_vs_none &lt;- inc_cost_risk_vs_none / inc_qaly_risk_vs_none\n\n# Universal vs No screening\ninc_cost_univ_vs_none &lt;- total_cost_universal - total_cost_none\ninc_qaly_univ_vs_none &lt;- total_qaly_universal - total_qaly_none\nicer_univ_vs_none &lt;- inc_cost_univ_vs_none / inc_qaly_univ_vs_none\n\n# Universal vs Risk-based\ninc_cost_univ_vs_risk &lt;- total_cost_universal - total_cost_risk\ninc_qaly_univ_vs_risk &lt;- total_qaly_universal - total_qaly_risk\nicer_univ_vs_risk &lt;- inc_cost_univ_vs_risk / inc_qaly_univ_vs_risk\n\n# WTP threshold\nwtp_india &lt;- 170000\n\n# --- 4-quadrant ICER interpretation ---\ninterpret_icer &lt;- function(dc, dq, wtp) {\n  if (dc &lt; 0 & dq &gt; 0) return(\"DOMINANT\")\n  if (dc &gt; 0 & dq &lt; 0) return(\"DOMINATED\")\n  if (dc &gt; 0 & dq &gt; 0) return(if (dc/dq &lt; wtp) \"Cost-effective\" else \"Not CE\")\n  return(\"Trade-off (cheaper but worse)\")\n}\n\n# Summary table\nkable(data.frame(\n  Comparison = c(\"Risk-Based vs No Screening\",\n                 \"Universal vs No Screening\",\n                 \"Universal vs Risk-Based\"),\n  `Incr Cost/woman (₹)` = c(\n    paste0(\"₹\", format(round(inc_cost_risk_vs_none / n_cohort), big.mark = \",\")),\n    paste0(\"₹\", format(round(inc_cost_univ_vs_none / n_cohort), big.mark = \",\")),\n    paste0(\"₹\", format(round(inc_cost_univ_vs_risk / n_cohort), big.mark = \",\"))\n  ),\n  `Incr QALYs/woman` = c(\n    round(inc_qaly_risk_vs_none / n_cohort, 4),\n    round(inc_qaly_univ_vs_none / n_cohort, 4),\n    round(inc_qaly_univ_vs_risk / n_cohort, 4)\n  ),\n  `ICER (₹/QALY)` = c(\n    paste0(\"₹\", format(round(icer_risk_vs_none), big.mark = \",\")),\n    paste0(\"₹\", format(round(icer_univ_vs_none), big.mark = \",\")),\n    paste0(\"₹\", format(round(icer_univ_vs_risk), big.mark = \",\"))\n  ),\n  Conclusion = c(\n    interpret_icer(inc_cost_risk_vs_none, inc_qaly_risk_vs_none, wtp_india),\n    interpret_icer(inc_cost_univ_vs_none, inc_qaly_univ_vs_none, wtp_india),\n    interpret_icer(inc_cost_univ_vs_risk, inc_qaly_univ_vs_risk, wtp_india)\n  ),\n  check.names = FALSE\n), align = \"lrrrr\",\n   caption = paste0(\"Incremental cost-effectiveness (WTP = ₹\", format(wtp_india, big.mark = \",\"), \"/QALY)\"))\n\n\nIncremental cost-effectiveness (WTP = ₹170,000/QALY)\n\n\n\n\n\n\n\n\n\nComparison\nIncr Cost/woman (₹)\nIncr QALYs/woman\nICER (₹/QALY)\nConclusion\n\n\n\n\nRisk-Based vs No Screening\n₹656\n-0.0062\n₹-105,007\nDOMINATED\n\n\nUniversal vs No Screening\n₹1,150\n-0.0108\n₹-106,748\nDOMINATED\n\n\nUniversal vs Risk-Based\n₹494\n-0.0045\n₹-109,152\nDOMINATED\n\n\n\n\n\n\nNet Monetary Benefit\nThe ICER can be ambiguous when negative (DOMINANT and DOMINATED both produce negative ratios). The NMB gives an unambiguous answer: positive ΔNMB = adopt.\n\n# NMB = WTP × QALYs − Cost (per woman)\nnmb_none &lt;- wtp_india * (total_qaly_none / n_cohort) - (total_cost_none / n_cohort)\nnmb_risk &lt;- wtp_india * (total_qaly_risk / n_cohort) - (total_cost_risk / n_cohort)\nnmb_univ &lt;- wtp_india * (total_qaly_universal / n_cohort) - (total_cost_universal / n_cohort)\n\nkable(data.frame(\n  Strategy = c(\"No Screening\", \"Risk-Based Screening\", \"Universal Screening\"),\n  `NMB per woman (₹)` = c(\n    paste0(\"₹\", format(round(nmb_none), big.mark = \",\")),\n    paste0(\"₹\", format(round(nmb_risk), big.mark = \",\")),\n    paste0(\"₹\", format(round(nmb_univ), big.mark = \",\"))\n  ),\n  Ranking = rank(-c(nmb_none, nmb_risk, nmb_univ)),\n  check.names = FALSE\n), align = \"lrr\",\n   caption = paste0(\"Net Monetary Benefit (WTP = ₹\", format(wtp_india, big.mark = \",\"), \"/QALY) — highest NMB is optimal\"))\n\n\nNet Monetary Benefit (WTP = ₹170,000/QALY) — highest NMB is optimal\n\n\nStrategy\nNMB per woman (₹)\nRanking\n\n\n\n\nNo Screening\n₹140,917\n1\n\n\nRisk-Based Screening\n₹139,199\n2\n\n\nUniversal Screening\n₹137,935\n3\n\n\n\n\n\n\n\n\n\n\n\nTipReading the NMB Table\n\n\n\nThe strategy with the highest NMB is the optimal choice at the given WTP threshold. Unlike the ICER (which only compares pairs), NMB ranks all strategies simultaneously — making it easy to identify the best option when there are more than two comparators.",
+    "crumbs": [
+      "Decision Tree Modelling"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/session1.html#visualising-the-results",
+    "href": "courses/r_for_hta/session1.html#visualising-the-results",
+    "title": "Decision Tree Modelling in R",
+    "section": "Visualising the Results",
+    "text": "Visualising the Results\n\nlibrary(ggplot2)\n\nplot_data &lt;- data.frame(\n  Strategy = c(\"No Screening\", \"Risk-Based\", \"Universal\"),\n  Cost = c(total_cost_none / n_cohort,\n           total_cost_risk / n_cohort,\n           total_cost_universal / n_cohort),\n  QALY = c(total_qaly_none / n_cohort,\n           total_qaly_risk / n_cohort,\n           total_qaly_universal / n_cohort)\n)\n\nggplot(plot_data, aes(x = QALY, y = Cost, label = Strategy)) +\n  geom_point(size = 4, colour = \"steelblue\") +\n  geom_text(vjust = -1, hjust = 0.5, size = 3.5) +\n  geom_line(linetype = \"dashed\", colour = \"grey60\") +\n  labs(\n    x = \"QALYs per Woman\",\n    y = \"Cost per Woman (₹)\",\n    title = \"Cost-Effectiveness of GDM Screening Strategies\",\n    subtitle = \"Cohort of 10,000 pregnant women — Indian setting\"\n  ) +\n  theme_minimal() +\n  expand_limits(y = 0)\n\n\n\n\nCost-effectiveness comparison of GDM screening strategies",
+    "crumbs": [
+      "Decision Tree Modelling"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/session1.html#what-you-just-did",
+    "href": "courses/r_for_hta/session1.html#what-you-just-did",
+    "title": "Decision Tree Modelling in R",
+    "section": "What You Just Did",
+    "text": "What You Just Did\nWithout writing any code from scratch, you followed a complete diagnostic decision tree analysis:\n\nDefined the clinical question using Indian epidemiological data\nStructured the decision tree with three screening strategies\nPopulated it with parameters from published Indian literature\nCalculated costs, QALYs, and ICERs for each strategy\nVisualised the results on a cost-effectiveness plane\n\nIn Excel, changing a single parameter (say, GDM prevalence) would require tracing through multiple cells. In R, you change one number at the top and re-run the entire analysis.",
+    "crumbs": [
+      "Decision Tree Modelling"
+    ]
+  },
+  {
+    "objectID": "courses/r_for_hta/session1.html#key-references",
+    "href": "courses/r_for_hta/session1.html#key-references",
+    "title": "Decision Tree Modelling in R",
+    "section": "Key References",
+    "text": "Key References\n\nPujitha KS et al. (2024). National and regional prevalence of gestational diabetes mellitus in India: a systematic review and meta-analysis. BMC Public Health.\nSeshiah V et al. (2008). Prevalence of gestational diabetes mellitus in South India. JAPI.\nMohan V et al. (2014). Comparison of screening for GDM using IADPSG, DIPSI, and WHO 1999 criteria.\nBehboudi-Gandevani S et al. (2019). Worldwide prevalence of GDM: a systematic review.\nHAPO Study Cooperative Research Group (2008). Hyperglycemia and Adverse Pregnancy Outcomes. NEJM.\nNHM India. National Guidelines for Diagnosis & Management of Gestational Diabetes Mellitus.\nMoss JR et al. (2007). Cost-effectiveness of screening for GDM. BJOG.",
+    "crumbs": [
+      "Decision Tree Modelling"
+    ]
   }
 ]

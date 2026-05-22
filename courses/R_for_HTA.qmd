@@ -1,0 +1,31 @@
+---
+title: "R for Health Technology Assessment"
+description: "A practical hands-on workshop on R programming, data cleaning, visualization, and statistical analysis for public health research."
+image: images/r_for_hta.png
+categories: [R, Data Analysis, Public Health]
+---
+
+## Course Overview
+
+This workshop is designed for beginners who want to use R for public health data analysis.
+
+## Topics Covered
+
+- Introduction to R and RStudio
+- Data import and cleaning
+- Descriptive statistics
+- Data visualization
+- Regression analysis
+- Report generation using Quarto
+
+## Target Audience
+
+Students, researchers, public health professionals, and health economists.
+
+## Duration
+
+3 days / 5 days
+
+## Mode
+
+Hands-on workshop

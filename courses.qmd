@@ -3,57 +3,50 @@ title: "Courses"
 page-layout: full
 ---
 
-::: {.courses-intro}
+::: courses-intro
 Explore my courses and training programmes designed for students, researchers, and professionals in public health, health economics, and data analysis.
 :::
 
-::: {.course-grid}
-
-::: {.course-card}
+::::::::: course-grid
+:::: course-card
 ![](images/health_economics.png){.course-img}
 
 ### Health Economics
 
 An introductory course covering health economic concepts, costing, economic evaluation, and decision-making in healthcare.
 
-::: {.tags}
-<span>Health Economics</span>
-<span>Public Health</span>
+::: tags
+Health Economics Public Health Economic Evaluation
 :::
 
 [View course details →](courses/health_economics.qmd){.course-link}
-:::
+::::
 
-::: {.course-card}
+:::: course-card
 ![](images/r_for_hta.png){.course-img}
 
-### R Workshop for Public Health
+### R for Health Technology Assessment
 
 A practical hands-on workshop on R programming, data cleaning, visualization, and statistical analysis for public health research.
 
-::: {.tags}
-<span>R Programming</span>
-<span>Data Analysis</span>
-<span>Public Health</span>
+::: tags
+R Programming Economic Evaluation Decision Tree Markov Model Sensitivity Analysis
 :::
 
-[View course details →](courses/R_for_HTA.qmd){.course-link}
-:::
+[View course details →](courses/r_for_hta/index.qmd){.course-link}
+::::
 
-::: {.course-card}
+:::: course-card
 ![](images/hta.png){.course-img}
 
 ### Health Technology Assessment
 
 A course on HTA concepts, evidence synthesis, economic evaluation, and policy translation for evidence-informed decision-making.
 
-::: {.tags}
-<span>HTA</span>
-<span>Economic Evaluation</span>
-<span>Policy</span>
+::: tags
+Health Technology Assessment Economic Evaluation
 :::
 
 [View course details →](courses/HTA.qmd){.course-link}
-:::
-
-:::
+::::
+:::::::::
